@@ -48,7 +48,7 @@ install debian packaging tools :
 
     $ sudo apt install build-essential debhelper
 
-build the debian package:
+build the debian package (version may vary):
 
     $ dpkg-buildpackage -b --no-sign
     dpkg-buildpackage: source package libngapcodec
@@ -72,16 +72,19 @@ Then you can install it:
 
 ## Example program
 
-In order to compile the example, you need to install the pkg-config tool:
+In order to compile the example, you need to compile the library first in the source folder:
 
-    $ sudo apt install pkg-config
+    $ make
+    cc  -DASN_PDU_COLLECTION -I. -Iinclude/asn1c -fPIE -o src/Ngap_Criticality.o -c src/Ngap_Criticality.c                                                                                                     cc  -DASN_PDU_COLLECTION -I. -Iinclude/asn1c -fPIE -o src/Ngap_Presence.o -c src/Ngap_Presence.c
+    [...]
 
 Then just go in the example folder and launch make:
 
+    $ cd examples
     $ make
-    cc -DASN_PDU_COLLECTION -I. `pkg-config --cflags ngapcodec-15.2.0` -o converter-example.o -c converter-example.c
-    cc -DASN_PDU_COLLECTION -I. `pkg-config --cflags ngapcodec-15.2.0` -o pdu_collection.o -c pdu_collection.c
-    cc -DASN_PDU_COLLECTION -I. `pkg-config --cflags ngapcodec-15.2.0`  -o converter-example converter-example.o pdu_collection.o `pkg-config --static --libs ngapcodec-15.2.0`
+    cc -DASN_PDU_COLLECTION -I. -I ../include/asn1c -o converter-example.o -c converter-example.c
+    cc -DASN_PDU_COLLECTION -I. -I ../include/asn1c -o pdu_collection.o -c pdu_collection.c
+    cc -DASN_PDU_COLLECTION -I. -I ../include/asn1c  -o converter-example converter-example.o pdu_collection.o -L.. -lm -lngapcodec
     $
 
 ## Testing with the example program

@@ -3,8 +3,9 @@
 set -e
 
 export ASN1C_PREFIX=Ngap_
+export ASN1C=${ASN1C:-asn1c}
 
-asn1c \
+$ASN1C \
     -pdu=all \
     -fcompound-names \
     -fno-include-deps \

@@ -50,7 +50,7 @@ install debian packaging tools :
 
 build the debian package:
 
-    $ dpkg-buildpackage -b
+    $ dpkg-buildpackage -b --no-sign
     dpkg-buildpackage: source package libngapcodec
     dpkg-buildpackage: source version 15.2.0-1
     dpkg-buildpackage: source distribution unstable

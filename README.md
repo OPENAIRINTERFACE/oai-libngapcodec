@@ -117,9 +117,9 @@ Here are it's help usage:
 ### Decoding an aper pdu packet to xer format:
 
 Here is an example to decode a pdu packet to xer :
-./converter-example -pNGAP-PDU -iaper /media/sf_Downloads/NGSetupRequest_2.raw -oxer
+./converter-example -pInitialUEMessage -iaper ../test/aper/pdu-InitialUEMessage.aper -oxer
 
-    $ ./converter-example -iaper -pNGAP-PDU ../test/aper/pdu-InitialUEMessage.aper
+    $ ./converter-example -iaper -pInitialUEMessage ../test/aper/pdu-InitialUEMessage.aper
     <InitialUEMessage>
         <protocolIEs>
             <InitialUEMessage-IEs>

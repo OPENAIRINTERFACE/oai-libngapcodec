@@ -1,3 +1,8 @@
+libngapcodec (16.5.0-1) unstable; urgency=medium
+
+  * update release
+
+ -- Frédéric Leroy <frederic.leroy@b-com.com>  Tue, 14 Jun 2021 13:55:52 +0000
 libngapcodec (15.3.0-1) unstable; urgency=medium
 
   * Initial release

@@ -1,6 +1,6 @@
 include src/Makefile.am.libasncodec
 
-VERSION=15.3.0
+VERSION=16.5.0
 
 NAME=ngapcodec
 LIBNAME=lib$(NAME)

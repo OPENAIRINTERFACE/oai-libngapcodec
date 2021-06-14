@@ -7,6 +7,13 @@ ASN_PROGRAM_SRCS ?= \
 	converter-example.c\
 	pdu_collection.c
 
+NGAP_PDU_SAMPLES = \
+	../test/aper/NGSetupRequest_1.aper \
+	../test/aper/NGSetupRequest_2.aper \
+	../test/aper/NGReset.aper
+
+.PHONY: test
+
 all: $(ASN_PROGRAM)
 
 $(ASN_PROGRAM): $(ASN_PROGRAM_SRCS:.c=.o)
@@ -21,3 +28,8 @@ $(ASN_PROGRAM): $(ASN_PROGRAM_SRCS:.c=.o)
 clean:
 	rm -f $(ASN_PROGRAM)
 	rm -f $(ASN_MODULE_SRCS:.c=.o) $(ASN_PROGRAM_SRCS:.c=.o)
+
+test_ngap_pdu: $(NGAP_PDU_SAMPLES)
+	./converter-example -iaper -per-nopad -pNGAP-PDU $< -oxer
+
+test: test_ngap_pdu

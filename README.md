@@ -89,6 +89,14 @@ Then just go in the example folder and launch make:
 
 ## Testing with the example program
 
+Makefile for the example program have a _test_ target used to verify that the library
+can decode various NGAP pdus packet.
+Just run it:
+
+    $ make test
+
+## Manually testing pdus with the example program
+
 The converte example program have many option to encode/decode pdu packets.
 Here are it's help usage:
 

@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_TraceStart */
 typedef struct Ngap_TraceStart {
-	Ngap_ProtocolIE_Container_124P68_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P80_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

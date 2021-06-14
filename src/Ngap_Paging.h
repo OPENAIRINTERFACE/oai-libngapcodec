@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_Paging */
 typedef struct Ngap_Paging {
-	Ngap_ProtocolIE_Container_124P35_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P47_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

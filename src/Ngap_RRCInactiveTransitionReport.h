@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_RRCInactiveTransitionReport */
 typedef struct Ngap_RRCInactiveTransitionReport {
-	Ngap_ProtocolIE_Container_124P20_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P26_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_RerouteNASRequest */
 typedef struct Ngap_RerouteNASRequest {
-	Ngap_ProtocolIE_Container_124P40_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P52_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

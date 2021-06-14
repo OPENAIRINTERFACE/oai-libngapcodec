@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_RANConfigurationUpdateAcknowledge */
 typedef struct Ngap_RANConfigurationUpdateAcknowledge {
-	Ngap_ProtocolIE_Container_124P45_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P57_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -66,10 +66,15 @@ static const asn_INTEGER_enum_map_t asn_MAP_Ngap_CauseRadioNetwork_value2enum_1[
 	{ 43,	43,	"ue-max-integrity-protected-data-rate-reason" },
 	{ 44,	35,	"release-due-to-cn-detected-mobility" },
 	{ 45,	27,	"n26-interface-not-available" },
-	{ 46,	26,	"release-due-to-pre-emption" }
+	{ 46,	26,	"release-due-to-pre-emption" },
+	{ 47,	50,	"multiple-location-reporting-reference-ID-instances" },
+	{ 48,	28,	"rsn-not-available-for-the-up" },
+	{ 49,	17,	"npn-access-denied" },
+	{ 50,	22,	"cag-only-access-denied" }
 	/* This list is extensible */
 };
 static const unsigned int asn_MAP_Ngap_CauseRadioNetwork_enum2value_1[] = {
+	50,	/* cag-only-access-denied(50) */
 	11,	/* cell-not-available(11) */
 	30,	/* encryption-and-or-integrity-protection-algorithms-not-supported(30) */
 	24,	/* failure-in-radio-interface-procedure(24) */
@@ -82,12 +87,14 @@ static const unsigned int asn_MAP_Ngap_CauseRadioNetwork_enum2value_1[] = {
 	25,	/* interaction-with-other-procedure(25) */
 	23,	/* invalid-qos-combination(23) */
 	28,	/* multiple-PDU-session-ID-instances(28) */
+	47,	/* multiple-location-reporting-reference-ID-instances(47) */
 	29,	/* multiple-qos-flow-ID-instances(29) */
 	45,	/* n26-interface-not-available(45) */
 	32,	/* ng-inter-system-handover-triggered(32) */
 	31,	/* ng-intra-system-handover-triggered(31) */
 	13,	/* no-radio-resources-available-in-target-cell(13) */
 	34,	/* not-supported-5QI-value(34) */
+	49,	/* npn-access-denied(49) */
 	6,	/* partial-handover(6) */
 	21,	/* radio-connection-with-ue-lost(21) */
 	22,	/* radio-resources-not-available(22) */
@@ -99,6 +106,7 @@ static const unsigned int asn_MAP_Ngap_CauseRadioNetwork_enum2value_1[] = {
 	46,	/* release-due-to-pre-emption(46) */
 	18,	/* resource-optimisation-handover(18) */
 	42,	/* resources-not-available-for-the-slice(42) */
+	48,	/* rsn-not-available-for-the-up(48) */
 	39,	/* slice-not-supported(39) */
 	2,	/* successful-handover(2) */
 	17,	/* time-critical-handover(17) */
@@ -122,7 +130,7 @@ static const unsigned int asn_MAP_Ngap_CauseRadioNetwork_enum2value_1[] = {
 const asn_INTEGER_specifics_t asn_SPC_Ngap_CauseRadioNetwork_specs_1 = {
 	asn_MAP_Ngap_CauseRadioNetwork_value2enum_1,	/* "tag" => N; sorted by tag */
 	asn_MAP_Ngap_CauseRadioNetwork_enum2value_1,	/* N => "tag"; sorted by N */
-	47,	/* Number of elements in the maps */
+	51,	/* Number of elements in the maps */
 	46,	/* Extensions before this member */
 	1,	/* Strict enumeration */
 	0,	/* Native long size */

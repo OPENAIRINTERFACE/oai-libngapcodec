@@ -90,6 +90,19 @@ per_type_encoder_f Ngap_ProcedureCode_encode_aper;
 #define Ngap_ProcedureCode_id_UplinkUEAssociatedNRPPaTransport	((Ngap_ProcedureCode_t)50)
 #define Ngap_ProcedureCode_id_WriteReplaceWarning	((Ngap_ProcedureCode_t)51)
 #define Ngap_ProcedureCode_id_SecondaryRATDataUsageReport	((Ngap_ProcedureCode_t)52)
+#define Ngap_ProcedureCode_id_UplinkRIMInformationTransfer	((Ngap_ProcedureCode_t)53)
+#define Ngap_ProcedureCode_id_DownlinkRIMInformationTransfer	((Ngap_ProcedureCode_t)54)
+#define Ngap_ProcedureCode_id_RetrieveUEInformation	((Ngap_ProcedureCode_t)55)
+#define Ngap_ProcedureCode_id_UEInformationTransfer	((Ngap_ProcedureCode_t)56)
+#define Ngap_ProcedureCode_id_RANCPRelocationIndication	((Ngap_ProcedureCode_t)57)
+#define Ngap_ProcedureCode_id_UEContextResume	((Ngap_ProcedureCode_t)58)
+#define Ngap_ProcedureCode_id_UEContextSuspend	((Ngap_ProcedureCode_t)59)
+#define Ngap_ProcedureCode_id_UERadioCapabilityIDMapping	((Ngap_ProcedureCode_t)60)
+#define Ngap_ProcedureCode_id_HandoverSuccess	((Ngap_ProcedureCode_t)61)
+#define Ngap_ProcedureCode_id_UplinkRANEarlyStatusTransfer	((Ngap_ProcedureCode_t)62)
+#define Ngap_ProcedureCode_id_DownlinkRANEarlyStatusTransfer	((Ngap_ProcedureCode_t)63)
+#define Ngap_ProcedureCode_id_AMFCPRelocationIndication	((Ngap_ProcedureCode_t)64)
+#define Ngap_ProcedureCode_id_ConnectionEstablishmentIndication	((Ngap_ProcedureCode_t)65)
 
 #ifdef __cplusplus
 }

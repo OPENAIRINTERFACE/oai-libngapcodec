@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_RANConfigurationUpdateFailure */
 typedef struct Ngap_RANConfigurationUpdateFailure {
-	Ngap_ProtocolIE_Container_124P46_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P58_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

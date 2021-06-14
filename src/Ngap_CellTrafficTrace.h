@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_CellTrafficTrace */
 typedef struct Ngap_CellTrafficTrace {
-	Ngap_ProtocolIE_Container_124P71_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P83_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

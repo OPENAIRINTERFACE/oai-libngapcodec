@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UplinkRANStatusTransfer */
 typedef struct Ngap_UplinkRANStatusTransfer {
-	Ngap_ProtocolIE_Container_124P33_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P45_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

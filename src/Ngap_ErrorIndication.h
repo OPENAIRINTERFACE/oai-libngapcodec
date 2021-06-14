@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_ErrorIndication */
 typedef struct Ngap_ErrorIndication {
-	Ngap_ProtocolIE_Container_124P53_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P65_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

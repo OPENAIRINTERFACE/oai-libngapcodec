@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_NGSetupRequest */
 typedef struct Ngap_NGSetupRequest {
-	Ngap_ProtocolIE_Container_124P41_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P53_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_DeactivateTrace */
 typedef struct Ngap_DeactivateTrace {
-	Ngap_ProtocolIE_Container_124P70_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P82_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

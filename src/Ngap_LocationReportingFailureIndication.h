@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_LocationReportingFailureIndication */
 typedef struct Ngap_LocationReportingFailureIndication {
-	Ngap_ProtocolIE_Container_124P73_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P85_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

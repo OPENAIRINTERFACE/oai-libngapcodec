@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_AMFConfigurationUpdate */
 typedef struct Ngap_AMFConfigurationUpdate {
-	Ngap_ProtocolIE_Container_124P47_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P59_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

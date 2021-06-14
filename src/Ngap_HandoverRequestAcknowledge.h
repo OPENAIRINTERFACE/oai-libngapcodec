@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_HandoverRequestAcknowledge */
 typedef struct Ngap_HandoverRequestAcknowledge {
-	Ngap_ProtocolIE_Container_124P25_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P34_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

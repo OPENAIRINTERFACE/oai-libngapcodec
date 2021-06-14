@@ -24,10 +24,12 @@ extern "C" {
 /* Dependencies */
 typedef enum Ngap_QoSFlowsUsageReport_Item__rATType {
 	Ngap_QoSFlowsUsageReport_Item__rATType_nr	= 0,
-	Ngap_QoSFlowsUsageReport_Item__rATType_eutra	= 1
+	Ngap_QoSFlowsUsageReport_Item__rATType_eutra	= 1,
 	/*
 	 * Enumeration is extensible
 	 */
+	Ngap_QoSFlowsUsageReport_Item__rATType_nr_unlicensed	= 2,
+	Ngap_QoSFlowsUsageReport_Item__rATType_e_utra_unlicensed	= 3
 } e_Ngap_QoSFlowsUsageReport_Item__rATType;
 
 /* Forward declarations */

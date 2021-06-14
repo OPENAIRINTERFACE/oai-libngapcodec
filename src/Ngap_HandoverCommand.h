@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_HandoverCommand */
 typedef struct Ngap_HandoverCommand {
-	Ngap_ProtocolIE_Container_124P22_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P31_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

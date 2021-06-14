@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_OverloadStop */
 typedef struct Ngap_OverloadStop {
-	Ngap_ProtocolIE_Container_124P55_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P67_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

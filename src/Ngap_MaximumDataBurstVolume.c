@@ -21,7 +21,7 @@ Ngap_MaximumDataBurstVolume_constraint(const asn_TYPE_descriptor_t *td, const vo
 	
 	value = *(const long *)sptr;
 	
-	if((value >= 0 && value <= 4095)) {
+	if((value >= 0 && value <= 2000000)) {
 		/* Constraint check succeeded */
 		return 0;
 	} else {
@@ -40,7 +40,7 @@ static asn_oer_constraints_t asn_OER_type_Ngap_MaximumDataBurstVolume_constr_1 C
 	{ 0, 0 },
 	-1};
 asn_per_constraints_t asn_PER_type_Ngap_MaximumDataBurstVolume_constr_1 CC_NOTUSED = {
-	{ APC_CONSTRAINED | APC_EXTENSIBLE,  12,  12,  0,  4095 }	/* (0..4095,...) */,
+	{ APC_CONSTRAINED | APC_EXTENSIBLE,  21, -1,  0,  2000000 }	/* (0..2000000,...) */,
 	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
 	0, 0	/* No PER value map */
 };

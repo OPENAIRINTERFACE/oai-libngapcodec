@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UETNLABindingReleaseRequest */
 typedef struct Ngap_UETNLABindingReleaseRequest {
-	Ngap_ProtocolIE_Container_124P75_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P87_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

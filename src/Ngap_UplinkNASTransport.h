@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UplinkNASTransport */
 typedef struct Ngap_UplinkNASTransport {
-	Ngap_ProtocolIE_Container_124P38_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P50_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -59,7 +59,7 @@ asn_TYPE_member_t asn_MBR_Ngap_PDUSessionResourceFailedToModifyItemModRes_1[] = 
 	{ ATF_POINTER, 1, offsetof(struct Ngap_PDUSessionResourceFailedToModifyItemModRes, iE_Extensions),
 		(ASN_TAG_CLASS_CONTEXT | (2 << 2)),
 		-1,	/* IMPLICIT tag at current level */
-		&asn_DEF_Ngap_ProtocolExtensionContainer_175P83,
+		&asn_DEF_Ngap_ProtocolExtensionContainer_175P151,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */

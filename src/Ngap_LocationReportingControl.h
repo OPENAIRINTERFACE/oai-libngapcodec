@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_LocationReportingControl */
 typedef struct Ngap_LocationReportingControl {
-	Ngap_ProtocolIE_Container_124P72_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P84_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

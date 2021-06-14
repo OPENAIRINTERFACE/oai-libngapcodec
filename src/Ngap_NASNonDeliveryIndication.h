@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_NASNonDeliveryIndication */
 typedef struct Ngap_NASNonDeliveryIndication {
-	Ngap_ProtocolIE_Container_124P39_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P51_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

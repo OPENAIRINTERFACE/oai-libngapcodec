@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_SecondaryRATDataUsageReport */
 typedef struct Ngap_SecondaryRATDataUsageReport {
-	Ngap_ProtocolIE_Container_124P79_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P91_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_WriteReplaceWarningResponse */
 typedef struct Ngap_WriteReplaceWarningResponse {
-	Ngap_ProtocolIE_Container_124P59_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P71_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

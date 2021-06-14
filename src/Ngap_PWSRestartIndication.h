@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_PWSRestartIndication */
 typedef struct Ngap_PWSRestartIndication {
-	Ngap_ProtocolIE_Container_124P62_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P74_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

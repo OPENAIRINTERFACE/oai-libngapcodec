@@ -68,7 +68,7 @@ asn_TYPE_member_t asn_MBR_Ngap_N3IWF_ID_1[] = {
 	{ ATF_POINTER, 0, offsetof(struct Ngap_N3IWF_ID, choice.choice_Extensions),
 		(ASN_TAG_CLASS_CONTEXT | (1 << 2)),
 		-1,	/* IMPLICIT tag at current level */
-		&asn_DEF_Ngap_ProtocolIE_SingleContainer_127P11,
+		&asn_DEF_Ngap_ProtocolIE_SingleContainer_127P25,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */

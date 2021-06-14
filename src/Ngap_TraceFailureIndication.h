@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_TraceFailureIndication */
 typedef struct Ngap_TraceFailureIndication {
-	Ngap_ProtocolIE_Container_124P69_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P81_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

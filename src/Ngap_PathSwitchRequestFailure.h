@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_PathSwitchRequestFailure */
 typedef struct Ngap_PathSwitchRequestFailure {
-	Ngap_ProtocolIE_Container_124P30_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P39_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

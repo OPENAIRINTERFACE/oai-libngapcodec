@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UEContextModificationResponse */
 typedef struct Ngap_UEContextModificationResponse {
-	Ngap_ProtocolIE_Container_124P18_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P24_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

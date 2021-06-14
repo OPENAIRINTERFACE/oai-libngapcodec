@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UERadioCapabilityInfoIndication */
 typedef struct Ngap_UERadioCapabilityInfoIndication {
-	Ngap_ProtocolIE_Container_124P76_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P88_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

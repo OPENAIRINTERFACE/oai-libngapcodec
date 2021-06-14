@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_HandoverPreparationFailure */
 typedef struct Ngap_HandoverPreparationFailure {
-	Ngap_ProtocolIE_Container_124P23_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P32_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

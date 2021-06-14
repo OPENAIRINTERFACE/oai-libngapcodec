@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UplinkUEAssociatedNRPPaTransport */
 typedef struct Ngap_UplinkUEAssociatedNRPPaTransport {
-	Ngap_ProtocolIE_Container_124P65_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P77_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

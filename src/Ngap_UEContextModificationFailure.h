@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UEContextModificationFailure */
 typedef struct Ngap_UEContextModificationFailure {
-	Ngap_ProtocolIE_Container_124P19_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P25_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_OverloadStart */
 typedef struct Ngap_OverloadStart {
-	Ngap_ProtocolIE_Container_124P54_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P66_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

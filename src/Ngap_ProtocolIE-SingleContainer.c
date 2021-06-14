@@ -12,11 +12,23 @@
  * so here we adjust the DEF accordingly.
  */
 /*
+ * This type is implemented using Ngap_AreaScopeOfMDT_NR_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_AreaScopeOfMDT_EUTRA_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
  * This type is implemented using Ngap_BroadcastCancelledAreaList_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
  * This type is implemented using Ngap_BroadcastCompletedAreaList_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_CandidateCell_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
@@ -40,6 +52,22 @@
  * so here we adjust the DEF accordingly.
  */
 /*
+ * This type is implemented using Ngap_ProcedureStageChoice_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_ENB_ID_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_EventTrigger_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_MeasurementThresholdL1LoggedMDT_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
  * This type is implemented using Ngap_GlobalRANNodeID_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
@@ -48,7 +76,35 @@
  * so here we adjust the DEF accordingly.
  */
 /*
+ * This type is implemented using Ngap_IntersystemSONTransferType_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_IntersystemSONInformation_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_IntersystemSONInformationReport_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_InterSystemHandoverReportType_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
  * This type is implemented using Ngap_LastVisitedCellInformation_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_LoggedMDTTrigger_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_MDTModeNr_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_M1ThresholdType_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
@@ -61,6 +117,22 @@
  */
 /*
  * This type is implemented using Ngap_NGRAN_CGI_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_NPN_AccessInformation_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_NPN_MobilityInformation_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_NPN_PagingAssistanceInformation_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_NPN_Support_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
@@ -80,11 +152,31 @@
  * so here we adjust the DEF accordingly.
  */
 /*
+ * This type is implemented using Ngap_SensorNameConfig_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
  * This type is implemented using Ngap_SONInformation_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
+ * This type is implemented using Ngap_SONInformationReport_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
  * This type is implemented using Ngap_TargetID_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_TNGF_ID_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_TWIF_ID_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_UEHistoryInformationFromTheUE_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
@@ -100,11 +192,23 @@
  * so here we adjust the DEF accordingly.
  */
 /*
+ * This type is implemented using Ngap_UERLFReportContainer_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
  * This type is implemented using Ngap_UPTransportLayerInformation_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
  * This type is implemented using Ngap_UserLocationInformation_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_UserLocationInformationW_AGF_ExtIEs,
+ * so here we adjust the DEF accordingly.
+ */
+/*
+ * This type is implemented using Ngap_W_AGF_ID_ExtIEs,
  * so here we adjust the DEF accordingly.
  */
 /*
@@ -144,9 +248,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P1 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P1_tags_2)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P1_tags_2[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_BroadcastCancelledAreaList_ExtIEs_5,
+	asn_MBR_Ngap_AreaScopeOfMDT_NR_ExtIEs_5,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_BroadcastCancelledAreaList_ExtIEs_specs_5	/* Additional specs */
+	&asn_SPC_Ngap_AreaScopeOfMDT_NR_ExtIEs_specs_5	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P2_tags_3[] = {
@@ -163,9 +267,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P2 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P2_tags_3)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P2_tags_3[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_BroadcastCompletedAreaList_ExtIEs_9,
+	asn_MBR_Ngap_AreaScopeOfMDT_EUTRA_ExtIEs_9,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_BroadcastCompletedAreaList_ExtIEs_specs_9	/* Additional specs */
+	&asn_SPC_Ngap_AreaScopeOfMDT_EUTRA_ExtIEs_specs_9	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P3_tags_4[] = {
@@ -182,9 +286,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P3 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P3_tags_4)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P3_tags_4[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_Cause_ExtIEs_13,
+	asn_MBR_Ngap_BroadcastCancelledAreaList_ExtIEs_13,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_Cause_ExtIEs_specs_13	/* Additional specs */
+	&asn_SPC_Ngap_BroadcastCancelledAreaList_ExtIEs_specs_13	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P4_tags_5[] = {
@@ -201,9 +305,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P4 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P4_tags_5)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P4_tags_5[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_CellIDListForRestart_ExtIEs_17,
+	asn_MBR_Ngap_BroadcastCompletedAreaList_ExtIEs_17,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_CellIDListForRestart_ExtIEs_specs_17	/* Additional specs */
+	&asn_SPC_Ngap_BroadcastCompletedAreaList_ExtIEs_specs_17	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P5_tags_6[] = {
@@ -220,9 +324,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P5 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P5_tags_6)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P5_tags_6[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_CPTransportLayerInformation_ExtIEs_21,
+	asn_MBR_Ngap_CandidateCell_ExtIEs_21,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_CPTransportLayerInformation_ExtIEs_specs_21	/* Additional specs */
+	&asn_SPC_Ngap_CandidateCell_ExtIEs_specs_21	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P6_tags_7[] = {
@@ -239,9 +343,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P6 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P6_tags_7)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P6_tags_7[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_DRBStatusDL_ExtIEs_25,
+	asn_MBR_Ngap_Cause_ExtIEs_25,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_DRBStatusDL_ExtIEs_specs_25	/* Additional specs */
+	&asn_SPC_Ngap_Cause_ExtIEs_specs_25	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P7_tags_8[] = {
@@ -258,9 +362,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P7 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P7_tags_8)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P7_tags_8[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_DRBStatusUL_ExtIEs_29,
+	asn_MBR_Ngap_CellIDListForRestart_ExtIEs_29,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_DRBStatusUL_ExtIEs_specs_29	/* Additional specs */
+	&asn_SPC_Ngap_CellIDListForRestart_ExtIEs_specs_29	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P8_tags_9[] = {
@@ -277,9 +381,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P8 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P8_tags_9)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P8_tags_9[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_GlobalRANNodeID_ExtIEs_33,
+	asn_MBR_Ngap_CPTransportLayerInformation_ExtIEs_33,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_GlobalRANNodeID_ExtIEs_specs_33	/* Additional specs */
+	&asn_SPC_Ngap_CPTransportLayerInformation_ExtIEs_specs_33	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P9_tags_10[] = {
@@ -296,9 +400,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P9 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P9_tags_10)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P9_tags_10[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_GNB_ID_ExtIEs_37,
+	asn_MBR_Ngap_DRBStatusDL_ExtIEs_37,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_GNB_ID_ExtIEs_specs_37	/* Additional specs */
+	&asn_SPC_Ngap_DRBStatusDL_ExtIEs_specs_37	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P10_tags_11[] = {
@@ -315,9 +419,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P10 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P10_tags_11)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P10_tags_11[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_LastVisitedCellInformation_ExtIEs_41,
+	asn_MBR_Ngap_DRBStatusUL_ExtIEs_41,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_LastVisitedCellInformation_ExtIEs_specs_41	/* Additional specs */
+	&asn_SPC_Ngap_DRBStatusUL_ExtIEs_specs_41	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P11_tags_12[] = {
@@ -334,9 +438,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P11 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P11_tags_12)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P11_tags_12[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_N3IWF_ID_ExtIEs_45,
+	asn_MBR_Ngap_ProcedureStageChoice_ExtIEs_45,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_N3IWF_ID_ExtIEs_specs_45	/* Additional specs */
+	&asn_SPC_Ngap_ProcedureStageChoice_ExtIEs_specs_45	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P12_tags_13[] = {
@@ -353,9 +457,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P12 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P12_tags_13)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P12_tags_13[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_NgENB_ID_ExtIEs_49,
+	asn_MBR_Ngap_ENB_ID_ExtIEs_49,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_NgENB_ID_ExtIEs_specs_49	/* Additional specs */
+	&asn_SPC_Ngap_ENB_ID_ExtIEs_specs_49	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P13_tags_14[] = {
@@ -372,9 +476,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P13 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P13_tags_14)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P13_tags_14[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_NGRAN_CGI_ExtIEs_53,
+	asn_MBR_Ngap_EventTrigger_ExtIEs_53,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_NGRAN_CGI_ExtIEs_specs_53	/* Additional specs */
+	&asn_SPC_Ngap_EventTrigger_ExtIEs_specs_53	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P14_tags_15[] = {
@@ -391,9 +495,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P14 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P14_tags_15)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P14_tags_15[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_OverloadResponse_ExtIEs_57,
+	asn_MBR_Ngap_MeasurementThresholdL1LoggedMDT_ExtIEs_57,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_OverloadResponse_ExtIEs_specs_57	/* Additional specs */
+	&asn_SPC_Ngap_MeasurementThresholdL1LoggedMDT_ExtIEs_specs_57	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P15_tags_16[] = {
@@ -410,9 +514,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P15 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P15_tags_16)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P15_tags_16[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_PWSFailedCellIDList_ExtIEs_61,
+	asn_MBR_Ngap_GlobalRANNodeID_ExtIEs_61,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_PWSFailedCellIDList_ExtIEs_specs_61	/* Additional specs */
+	&asn_SPC_Ngap_GlobalRANNodeID_ExtIEs_specs_61	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P16_tags_17[] = {
@@ -429,9 +533,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P16 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P16_tags_17)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P16_tags_17[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_QosCharacteristics_ExtIEs_65,
+	asn_MBR_Ngap_GNB_ID_ExtIEs_65,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_QosCharacteristics_ExtIEs_specs_65	/* Additional specs */
+	&asn_SPC_Ngap_GNB_ID_ExtIEs_specs_65	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P17_tags_18[] = {
@@ -448,9 +552,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P17 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P17_tags_18)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P17_tags_18[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_ResetType_ExtIEs_69,
+	asn_MBR_Ngap_IntersystemSONTransferType_ExtIEs_69,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_ResetType_ExtIEs_specs_69	/* Additional specs */
+	&asn_SPC_Ngap_IntersystemSONTransferType_ExtIEs_specs_69	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P18_tags_19[] = {
@@ -467,9 +571,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P18 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P18_tags_19)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P18_tags_19[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_SONInformation_ExtIEs_73,
+	asn_MBR_Ngap_IntersystemSONInformation_ExtIEs_73,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_SONInformation_ExtIEs_specs_73	/* Additional specs */
+	&asn_SPC_Ngap_IntersystemSONInformation_ExtIEs_specs_73	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P19_tags_20[] = {
@@ -486,9 +590,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P19 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P19_tags_20)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P19_tags_20[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_TargetID_ExtIEs_77,
+	asn_MBR_Ngap_IntersystemSONInformationReport_ExtIEs_77,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_TargetID_ExtIEs_specs_77	/* Additional specs */
+	&asn_SPC_Ngap_IntersystemSONInformationReport_ExtIEs_specs_77	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P20_tags_21[] = {
@@ -505,9 +609,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P20 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P20_tags_21)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P20_tags_21[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_UEIdentityIndexValue_ExtIEs_81,
+	asn_MBR_Ngap_InterSystemHandoverReportType_ExtIEs_81,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_UEIdentityIndexValue_ExtIEs_specs_81	/* Additional specs */
+	&asn_SPC_Ngap_InterSystemHandoverReportType_ExtIEs_specs_81	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P21_tags_22[] = {
@@ -524,9 +628,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P21 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P21_tags_22)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P21_tags_22[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_UE_NGAP_IDs_ExtIEs_85,
+	asn_MBR_Ngap_LastVisitedCellInformation_ExtIEs_85,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_UE_NGAP_IDs_ExtIEs_specs_85	/* Additional specs */
+	&asn_SPC_Ngap_LastVisitedCellInformation_ExtIEs_specs_85	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P22_tags_23[] = {
@@ -543,9 +647,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P22 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P22_tags_23)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P22_tags_23[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_UEPagingIdentity_ExtIEs_89,
+	asn_MBR_Ngap_LoggedMDTTrigger_ExtIEs_89,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_UEPagingIdentity_ExtIEs_specs_89	/* Additional specs */
+	&asn_SPC_Ngap_LoggedMDTTrigger_ExtIEs_specs_89	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P23_tags_24[] = {
@@ -562,9 +666,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P23 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P23_tags_24)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P23_tags_24[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_UPTransportLayerInformation_ExtIEs_93,
+	asn_MBR_Ngap_MDTModeNr_ExtIEs_93,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_UPTransportLayerInformation_ExtIEs_specs_93	/* Additional specs */
+	&asn_SPC_Ngap_MDTModeNr_ExtIEs_specs_93	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P24_tags_25[] = {
@@ -581,9 +685,9 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P24 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P24_tags_25)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P24_tags_25[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_UserLocationInformation_ExtIEs_97,
+	asn_MBR_Ngap_M1ThresholdType_ExtIEs_97,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_UserLocationInformation_ExtIEs_specs_97	/* Additional specs */
+	&asn_SPC_Ngap_M1ThresholdType_ExtIEs_specs_97	/* Additional specs */
 };
 
 static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P25_tags_26[] = {
@@ -600,8 +704,502 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P25 = {
 	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P25_tags_26)
 		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P25_tags_26[0]), /* 1 */
 	{ 0, 0, SEQUENCE_constraint },
-	asn_MBR_Ngap_WarningAreaList_ExtIEs_101,
+	asn_MBR_Ngap_N3IWF_ID_ExtIEs_101,
 	3,	/* Elements count */
-	&asn_SPC_Ngap_WarningAreaList_ExtIEs_specs_101	/* Additional specs */
+	&asn_SPC_Ngap_N3IWF_ID_ExtIEs_specs_101	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26_tags_27[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26_tags_27,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26_tags_27)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26_tags_27[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26_tags_27,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26_tags_27)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P26_tags_27[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_NgENB_ID_ExtIEs_105,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_NgENB_ID_ExtIEs_specs_105	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27_tags_28[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27_tags_28,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27_tags_28)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27_tags_28[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27_tags_28,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27_tags_28)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P27_tags_28[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_NGRAN_CGI_ExtIEs_109,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_NGRAN_CGI_ExtIEs_specs_109	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28_tags_29[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28_tags_29,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28_tags_29)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28_tags_29[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28_tags_29,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28_tags_29)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P28_tags_29[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_NPN_AccessInformation_ExtIEs_113,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_NPN_AccessInformation_ExtIEs_specs_113	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29_tags_30[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29_tags_30,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29_tags_30)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29_tags_30[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29_tags_30,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29_tags_30)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P29_tags_30[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_NPN_MobilityInformation_ExtIEs_117,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_NPN_MobilityInformation_ExtIEs_specs_117	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30_tags_31[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30_tags_31,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30_tags_31)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30_tags_31[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30_tags_31,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30_tags_31)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P30_tags_31[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_NPN_PagingAssistanceInformation_ExtIEs_121,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_NPN_PagingAssistanceInformation_ExtIEs_specs_121	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31_tags_32[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31_tags_32,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31_tags_32)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31_tags_32[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31_tags_32,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31_tags_32)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P31_tags_32[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_NPN_Support_ExtIEs_125,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_NPN_Support_ExtIEs_specs_125	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32_tags_33[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32_tags_33,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32_tags_33)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32_tags_33[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32_tags_33,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32_tags_33)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P32_tags_33[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_OverloadResponse_ExtIEs_129,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_OverloadResponse_ExtIEs_specs_129	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33_tags_34[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33_tags_34,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33_tags_34)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33_tags_34[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33_tags_34,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33_tags_34)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P33_tags_34[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_PWSFailedCellIDList_ExtIEs_133,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_PWSFailedCellIDList_ExtIEs_specs_133	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34_tags_35[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34_tags_35,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34_tags_35)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34_tags_35[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34_tags_35,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34_tags_35)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P34_tags_35[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_QosCharacteristics_ExtIEs_137,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_QosCharacteristics_ExtIEs_specs_137	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35_tags_36[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35_tags_36,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35_tags_36)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35_tags_36[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35_tags_36,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35_tags_36)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P35_tags_36[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_ResetType_ExtIEs_141,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_ResetType_ExtIEs_specs_141	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36_tags_37[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36_tags_37,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36_tags_37)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36_tags_37[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36_tags_37,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36_tags_37)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P36_tags_37[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_SensorNameConfig_ExtIEs_145,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_SensorNameConfig_ExtIEs_specs_145	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37_tags_38[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37_tags_38,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37_tags_38)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37_tags_38[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37_tags_38,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37_tags_38)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P37_tags_38[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_SONInformation_ExtIEs_149,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_SONInformation_ExtIEs_specs_149	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38_tags_39[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38_tags_39,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38_tags_39)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38_tags_39[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38_tags_39,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38_tags_39)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P38_tags_39[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_SONInformationReport_ExtIEs_153,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_SONInformationReport_ExtIEs_specs_153	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39_tags_40[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39_tags_40,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39_tags_40)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39_tags_40[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39_tags_40,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39_tags_40)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P39_tags_40[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_TargetID_ExtIEs_157,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_TargetID_ExtIEs_specs_157	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40_tags_41[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40_tags_41,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40_tags_41)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40_tags_41[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40_tags_41,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40_tags_41)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P40_tags_41[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_TNGF_ID_ExtIEs_161,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_TNGF_ID_ExtIEs_specs_161	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41_tags_42[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41_tags_42,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41_tags_42)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41_tags_42[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41_tags_42,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41_tags_42)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P41_tags_42[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_TWIF_ID_ExtIEs_165,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_TWIF_ID_ExtIEs_specs_165	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42_tags_43[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42_tags_43,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42_tags_43)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42_tags_43[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42_tags_43,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42_tags_43)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P42_tags_43[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UEHistoryInformationFromTheUE_ExtIEs_169,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UEHistoryInformationFromTheUE_ExtIEs_specs_169	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43_tags_44[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43_tags_44,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43_tags_44)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43_tags_44[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43_tags_44,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43_tags_44)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P43_tags_44[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UEIdentityIndexValue_ExtIEs_173,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UEIdentityIndexValue_ExtIEs_specs_173	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44_tags_45[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44_tags_45,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44_tags_45)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44_tags_45[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44_tags_45,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44_tags_45)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P44_tags_45[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UE_NGAP_IDs_ExtIEs_177,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UE_NGAP_IDs_ExtIEs_specs_177	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45_tags_46[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45_tags_46,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45_tags_46)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45_tags_46[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45_tags_46,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45_tags_46)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P45_tags_46[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UEPagingIdentity_ExtIEs_181,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UEPagingIdentity_ExtIEs_specs_181	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46_tags_47[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46_tags_47,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46_tags_47)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46_tags_47[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46_tags_47,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46_tags_47)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P46_tags_47[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UERLFReportContainer_ExtIEs_185,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UERLFReportContainer_ExtIEs_specs_185	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47_tags_48[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47_tags_48,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47_tags_48)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47_tags_48[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47_tags_48,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47_tags_48)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P47_tags_48[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UPTransportLayerInformation_ExtIEs_189,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UPTransportLayerInformation_ExtIEs_specs_189	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48_tags_49[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48_tags_49,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48_tags_49)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48_tags_49[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48_tags_49,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48_tags_49)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P48_tags_49[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UserLocationInformation_ExtIEs_193,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UserLocationInformation_ExtIEs_specs_193	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49_tags_50[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49_tags_50,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49_tags_50)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49_tags_50[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49_tags_50,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49_tags_50)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P49_tags_50[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_UserLocationInformationW_AGF_ExtIEs_197,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_UserLocationInformationW_AGF_ExtIEs_specs_197	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50_tags_51[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50_tags_51,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50_tags_51)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50_tags_51[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50_tags_51,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50_tags_51)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P50_tags_51[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_W_AGF_ID_ExtIEs_201,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_W_AGF_ID_ExtIEs_specs_201	/* Additional specs */
+};
+
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51_tags_52[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51 = {
+	"ProtocolIE-SingleContainer",
+	"ProtocolIE-SingleContainer",
+	&asn_OP_SEQUENCE,
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51_tags_52,
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51_tags_52)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51_tags_52[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51_tags_52,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51_tags_52)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_SingleContainer_127P51_tags_52[0]), /* 1 */
+	{ 0, 0, SEQUENCE_constraint },
+	asn_MBR_Ngap_WarningAreaList_ExtIEs_205,
+	3,	/* Elements count */
+	&asn_SPC_Ngap_WarningAreaList_ExtIEs_specs_205	/* Additional specs */
 };
 

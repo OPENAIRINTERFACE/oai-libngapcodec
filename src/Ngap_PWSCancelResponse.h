@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_PWSCancelResponse */
 typedef struct Ngap_PWSCancelResponse {
-	Ngap_ProtocolIE_Container_124P61_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P73_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

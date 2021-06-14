@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_NGReset */
 typedef struct Ngap_NGReset {
-	Ngap_ProtocolIE_Container_124P51_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P63_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

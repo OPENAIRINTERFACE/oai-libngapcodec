@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_HandoverCancelAcknowledge */
 typedef struct Ngap_HandoverCancelAcknowledge {
-	Ngap_ProtocolIE_Container_124P32_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P41_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

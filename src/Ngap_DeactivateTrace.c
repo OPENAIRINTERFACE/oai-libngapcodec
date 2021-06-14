@@ -11,7 +11,7 @@ asn_TYPE_member_t asn_MBR_Ngap_DeactivateTrace_1[] = {
 	{ ATF_NOFLAGS, 0, offsetof(struct Ngap_DeactivateTrace, protocolIEs),
 		(ASN_TAG_CLASS_CONTEXT | (0 << 2)),
 		-1,	/* IMPLICIT tag at current level */
-		&asn_DEF_Ngap_ProtocolIE_Container_124P70,
+		&asn_DEF_Ngap_ProtocolIE_Container_124P82,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */

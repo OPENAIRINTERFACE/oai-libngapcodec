@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_InitialUEMessage */
 typedef struct Ngap_InitialUEMessage {
-	Ngap_ProtocolIE_Container_124P36_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P48_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

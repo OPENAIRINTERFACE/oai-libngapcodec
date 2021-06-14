@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_UERadioCapabilityCheckResponse */
 typedef struct Ngap_UERadioCapabilityCheckResponse {
-	Ngap_ProtocolIE_Container_124P78_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P90_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

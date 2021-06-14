@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_AMFStatusIndication */
 typedef struct Ngap_AMFStatusIndication {
-	Ngap_ProtocolIE_Container_124P50_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P62_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -11,7 +11,7 @@ asn_TYPE_member_t asn_MBR_Ngap_DownlinkNonUEAssociatedNRPPaTransport_1[] = {
 	{ ATF_NOFLAGS, 0, offsetof(struct Ngap_DownlinkNonUEAssociatedNRPPaTransport, protocolIEs),
 		(ASN_TAG_CLASS_CONTEXT | (0 << 2)),
 		-1,	/* IMPLICIT tag at current level */
-		&asn_DEF_Ngap_ProtocolIE_Container_124P66,
+		&asn_DEF_Ngap_ProtocolIE_Container_124P78,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */

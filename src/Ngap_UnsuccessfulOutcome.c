@@ -39,80 +39,106 @@ static const long asn_VAL_15_Ngap_id_UEContextModification = 40;
 static const long asn_VAL_15_Ngap_reject = 0;
 static const long asn_VAL_16_Ngap_id_UEContextRelease = 41;
 static const long asn_VAL_16_Ngap_reject = 0;
-static const long asn_VAL_17_Ngap_id_UERadioCapabilityCheck = 43;
+static const long asn_VAL_17_Ngap_id_UEContextResume = 58;
 static const long asn_VAL_17_Ngap_reject = 0;
-static const long asn_VAL_18_Ngap_id_WriteReplaceWarning = 51;
+static const long asn_VAL_18_Ngap_id_UEContextSuspend = 59;
 static const long asn_VAL_18_Ngap_reject = 0;
-static const long asn_VAL_19_Ngap_id_AMFStatusIndication = 1;
-static const long asn_VAL_19_Ngap_ignore = 1;
-static const long asn_VAL_20_Ngap_id_CellTrafficTrace = 2;
-static const long asn_VAL_20_Ngap_ignore = 1;
-static const long asn_VAL_21_Ngap_id_DeactivateTrace = 3;
-static const long asn_VAL_21_Ngap_ignore = 1;
-static const long asn_VAL_22_Ngap_id_DownlinkNASTransport = 4;
-static const long asn_VAL_22_Ngap_ignore = 1;
-static const long asn_VAL_23_Ngap_id_DownlinkNonUEAssociatedNRPPaTransport = 5;
+static const long asn_VAL_19_Ngap_id_UERadioCapabilityCheck = 43;
+static const long asn_VAL_19_Ngap_reject = 0;
+static const long asn_VAL_20_Ngap_id_UERadioCapabilityIDMapping = 60;
+static const long asn_VAL_20_Ngap_reject = 0;
+static const long asn_VAL_21_Ngap_id_WriteReplaceWarning = 51;
+static const long asn_VAL_21_Ngap_reject = 0;
+static const long asn_VAL_22_Ngap_id_AMFCPRelocationIndication = 64;
+static const long asn_VAL_22_Ngap_reject = 0;
+static const long asn_VAL_23_Ngap_id_AMFStatusIndication = 1;
 static const long asn_VAL_23_Ngap_ignore = 1;
-static const long asn_VAL_24_Ngap_id_DownlinkRANConfigurationTransfer = 6;
+static const long asn_VAL_24_Ngap_id_CellTrafficTrace = 2;
 static const long asn_VAL_24_Ngap_ignore = 1;
-static const long asn_VAL_25_Ngap_id_DownlinkRANStatusTransfer = 7;
-static const long asn_VAL_25_Ngap_ignore = 1;
-static const long asn_VAL_26_Ngap_id_DownlinkUEAssociatedNRPPaTransport = 8;
+static const long asn_VAL_25_Ngap_id_ConnectionEstablishmentIndication = 65;
+static const long asn_VAL_25_Ngap_reject = 0;
+static const long asn_VAL_26_Ngap_id_DeactivateTrace = 3;
 static const long asn_VAL_26_Ngap_ignore = 1;
-static const long asn_VAL_27_Ngap_id_ErrorIndication = 9;
+static const long asn_VAL_27_Ngap_id_DownlinkNASTransport = 4;
 static const long asn_VAL_27_Ngap_ignore = 1;
-static const long asn_VAL_28_Ngap_id_HandoverNotification = 11;
+static const long asn_VAL_28_Ngap_id_DownlinkNonUEAssociatedNRPPaTransport = 5;
 static const long asn_VAL_28_Ngap_ignore = 1;
-static const long asn_VAL_29_Ngap_id_InitialUEMessage = 15;
+static const long asn_VAL_29_Ngap_id_DownlinkRANConfigurationTransfer = 6;
 static const long asn_VAL_29_Ngap_ignore = 1;
-static const long asn_VAL_30_Ngap_id_LocationReport = 18;
+static const long asn_VAL_30_Ngap_id_DownlinkRANEarlyStatusTransfer = 63;
 static const long asn_VAL_30_Ngap_ignore = 1;
-static const long asn_VAL_31_Ngap_id_LocationReportingControl = 16;
+static const long asn_VAL_31_Ngap_id_DownlinkRANStatusTransfer = 7;
 static const long asn_VAL_31_Ngap_ignore = 1;
-static const long asn_VAL_32_Ngap_id_LocationReportingFailureIndication = 17;
+static const long asn_VAL_32_Ngap_id_DownlinkRIMInformationTransfer = 54;
 static const long asn_VAL_32_Ngap_ignore = 1;
-static const long asn_VAL_33_Ngap_id_NASNonDeliveryIndication = 19;
+static const long asn_VAL_33_Ngap_id_DownlinkUEAssociatedNRPPaTransport = 8;
 static const long asn_VAL_33_Ngap_ignore = 1;
-static const long asn_VAL_34_Ngap_id_OverloadStart = 22;
+static const long asn_VAL_34_Ngap_id_ErrorIndication = 9;
 static const long asn_VAL_34_Ngap_ignore = 1;
-static const long asn_VAL_35_Ngap_id_OverloadStop = 23;
-static const long asn_VAL_35_Ngap_reject = 0;
-static const long asn_VAL_36_Ngap_id_Paging = 24;
+static const long asn_VAL_35_Ngap_id_HandoverNotification = 11;
+static const long asn_VAL_35_Ngap_ignore = 1;
+static const long asn_VAL_36_Ngap_id_HandoverSuccess = 61;
 static const long asn_VAL_36_Ngap_ignore = 1;
-static const long asn_VAL_37_Ngap_id_PDUSessionResourceNotify = 30;
+static const long asn_VAL_37_Ngap_id_InitialUEMessage = 15;
 static const long asn_VAL_37_Ngap_ignore = 1;
-static const long asn_VAL_38_Ngap_id_PrivateMessage = 31;
+static const long asn_VAL_38_Ngap_id_LocationReport = 18;
 static const long asn_VAL_38_Ngap_ignore = 1;
-static const long asn_VAL_39_Ngap_id_PWSFailureIndication = 33;
+static const long asn_VAL_39_Ngap_id_LocationReportingControl = 16;
 static const long asn_VAL_39_Ngap_ignore = 1;
-static const long asn_VAL_40_Ngap_id_PWSRestartIndication = 34;
+static const long asn_VAL_40_Ngap_id_LocationReportingFailureIndication = 17;
 static const long asn_VAL_40_Ngap_ignore = 1;
-static const long asn_VAL_41_Ngap_id_RerouteNASRequest = 36;
-static const long asn_VAL_41_Ngap_reject = 0;
-static const long asn_VAL_42_Ngap_id_RRCInactiveTransitionReport = 37;
+static const long asn_VAL_41_Ngap_id_NASNonDeliveryIndication = 19;
+static const long asn_VAL_41_Ngap_ignore = 1;
+static const long asn_VAL_42_Ngap_id_OverloadStart = 22;
 static const long asn_VAL_42_Ngap_ignore = 1;
-static const long asn_VAL_43_Ngap_id_SecondaryRATDataUsageReport = 52;
-static const long asn_VAL_43_Ngap_ignore = 1;
-static const long asn_VAL_44_Ngap_id_TraceFailureIndication = 38;
+static const long asn_VAL_43_Ngap_id_OverloadStop = 23;
+static const long asn_VAL_43_Ngap_reject = 0;
+static const long asn_VAL_44_Ngap_id_Paging = 24;
 static const long asn_VAL_44_Ngap_ignore = 1;
-static const long asn_VAL_45_Ngap_id_TraceStart = 39;
+static const long asn_VAL_45_Ngap_id_PDUSessionResourceNotify = 30;
 static const long asn_VAL_45_Ngap_ignore = 1;
-static const long asn_VAL_46_Ngap_id_UEContextReleaseRequest = 42;
+static const long asn_VAL_46_Ngap_id_PrivateMessage = 31;
 static const long asn_VAL_46_Ngap_ignore = 1;
-static const long asn_VAL_47_Ngap_id_UERadioCapabilityInfoIndication = 44;
+static const long asn_VAL_47_Ngap_id_PWSFailureIndication = 33;
 static const long asn_VAL_47_Ngap_ignore = 1;
-static const long asn_VAL_48_Ngap_id_UETNLABindingRelease = 45;
+static const long asn_VAL_48_Ngap_id_PWSRestartIndication = 34;
 static const long asn_VAL_48_Ngap_ignore = 1;
-static const long asn_VAL_49_Ngap_id_UplinkNASTransport = 46;
-static const long asn_VAL_49_Ngap_ignore = 1;
-static const long asn_VAL_50_Ngap_id_UplinkNonUEAssociatedNRPPaTransport = 47;
-static const long asn_VAL_50_Ngap_ignore = 1;
-static const long asn_VAL_51_Ngap_id_UplinkRANConfigurationTransfer = 48;
-static const long asn_VAL_51_Ngap_ignore = 1;
-static const long asn_VAL_52_Ngap_id_UplinkRANStatusTransfer = 49;
+static const long asn_VAL_49_Ngap_id_RANCPRelocationIndication = 57;
+static const long asn_VAL_49_Ngap_reject = 0;
+static const long asn_VAL_50_Ngap_id_RerouteNASRequest = 36;
+static const long asn_VAL_50_Ngap_reject = 0;
+static const long asn_VAL_51_Ngap_id_RetrieveUEInformation = 55;
+static const long asn_VAL_51_Ngap_reject = 0;
+static const long asn_VAL_52_Ngap_id_RRCInactiveTransitionReport = 37;
 static const long asn_VAL_52_Ngap_ignore = 1;
-static const long asn_VAL_53_Ngap_id_UplinkUEAssociatedNRPPaTransport = 50;
+static const long asn_VAL_53_Ngap_id_SecondaryRATDataUsageReport = 52;
 static const long asn_VAL_53_Ngap_ignore = 1;
+static const long asn_VAL_54_Ngap_id_TraceFailureIndication = 38;
+static const long asn_VAL_54_Ngap_ignore = 1;
+static const long asn_VAL_55_Ngap_id_TraceStart = 39;
+static const long asn_VAL_55_Ngap_ignore = 1;
+static const long asn_VAL_56_Ngap_id_UEContextReleaseRequest = 42;
+static const long asn_VAL_56_Ngap_ignore = 1;
+static const long asn_VAL_57_Ngap_id_UEInformationTransfer = 56;
+static const long asn_VAL_57_Ngap_reject = 0;
+static const long asn_VAL_58_Ngap_id_UERadioCapabilityInfoIndication = 44;
+static const long asn_VAL_58_Ngap_ignore = 1;
+static const long asn_VAL_59_Ngap_id_UETNLABindingRelease = 45;
+static const long asn_VAL_59_Ngap_ignore = 1;
+static const long asn_VAL_60_Ngap_id_UplinkNASTransport = 46;
+static const long asn_VAL_60_Ngap_ignore = 1;
+static const long asn_VAL_61_Ngap_id_UplinkNonUEAssociatedNRPPaTransport = 47;
+static const long asn_VAL_61_Ngap_ignore = 1;
+static const long asn_VAL_62_Ngap_id_UplinkRANConfigurationTransfer = 48;
+static const long asn_VAL_62_Ngap_ignore = 1;
+static const long asn_VAL_63_Ngap_id_UplinkRANEarlyStatusTransfer = 62;
+static const long asn_VAL_63_Ngap_reject = 0;
+static const long asn_VAL_64_Ngap_id_UplinkRANStatusTransfer = 49;
+static const long asn_VAL_64_Ngap_ignore = 1;
+static const long asn_VAL_65_Ngap_id_UplinkRIMInformationTransfer = 53;
+static const long asn_VAL_65_Ngap_ignore = 1;
+static const long asn_VAL_66_Ngap_id_UplinkUEAssociatedNRPPaTransport = 50;
+static const long asn_VAL_66_Ngap_ignore = 1;
 static const asn_ioc_cell_t asn_IOS_Ngap_NGAP_ELEMENTARY_PROCEDURES_1_rows[] = {
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_AMFConfigurationUpdate },
 	{ "&SuccessfulOutcome", aioc__type, &asn_DEF_Ngap_AMFConfigurationUpdateAcknowledge },
@@ -194,194 +220,259 @@ static const asn_ioc_cell_t asn_IOS_Ngap_NGAP_ELEMENTARY_PROCEDURES_1_rows[] = {
 	{ "&UnsuccessfulOutcome",  },
 	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_16_Ngap_id_UEContextRelease },
 	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_16_Ngap_reject },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UEContextResumeRequest },
+	{ "&SuccessfulOutcome", aioc__type, &asn_DEF_Ngap_UEContextResumeResponse },
+	{ "&UnsuccessfulOutcome", aioc__type, &asn_DEF_Ngap_UEContextResumeFailure },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_17_Ngap_id_UEContextResume },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_17_Ngap_reject },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UEContextSuspendRequest },
+	{ "&SuccessfulOutcome", aioc__type, &asn_DEF_Ngap_UEContextSuspendResponse },
+	{ "&UnsuccessfulOutcome", aioc__type, &asn_DEF_Ngap_UEContextSuspendFailure },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_18_Ngap_id_UEContextSuspend },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_18_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UERadioCapabilityCheckRequest },
 	{ "&SuccessfulOutcome", aioc__type, &asn_DEF_Ngap_UERadioCapabilityCheckResponse },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_17_Ngap_id_UERadioCapabilityCheck },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_17_Ngap_reject },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_19_Ngap_id_UERadioCapabilityCheck },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_19_Ngap_reject },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UERadioCapabilityIDMappingRequest },
+	{ "&SuccessfulOutcome", aioc__type, &asn_DEF_Ngap_UERadioCapabilityIDMappingResponse },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_20_Ngap_id_UERadioCapabilityIDMapping },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_20_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_WriteReplaceWarningRequest },
 	{ "&SuccessfulOutcome", aioc__type, &asn_DEF_Ngap_WriteReplaceWarningResponse },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_18_Ngap_id_WriteReplaceWarning },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_18_Ngap_reject },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_21_Ngap_id_WriteReplaceWarning },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_21_Ngap_reject },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_AMFCPRelocationIndication },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_22_Ngap_id_AMFCPRelocationIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_22_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_AMFStatusIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_19_Ngap_id_AMFStatusIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_19_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_23_Ngap_id_AMFStatusIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_23_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_CellTrafficTrace },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_20_Ngap_id_CellTrafficTrace },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_20_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_24_Ngap_id_CellTrafficTrace },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_24_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_ConnectionEstablishmentIndication },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_25_Ngap_id_ConnectionEstablishmentIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_25_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DeactivateTrace },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_21_Ngap_id_DeactivateTrace },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_21_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_26_Ngap_id_DeactivateTrace },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_26_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DownlinkNASTransport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_22_Ngap_id_DownlinkNASTransport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_22_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_27_Ngap_id_DownlinkNASTransport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_27_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DownlinkNonUEAssociatedNRPPaTransport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_23_Ngap_id_DownlinkNonUEAssociatedNRPPaTransport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_23_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_28_Ngap_id_DownlinkNonUEAssociatedNRPPaTransport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_28_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DownlinkRANConfigurationTransfer },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_24_Ngap_id_DownlinkRANConfigurationTransfer },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_24_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_29_Ngap_id_DownlinkRANConfigurationTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_29_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DownlinkRANEarlyStatusTransfer },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_30_Ngap_id_DownlinkRANEarlyStatusTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_30_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DownlinkRANStatusTransfer },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_25_Ngap_id_DownlinkRANStatusTransfer },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_25_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_31_Ngap_id_DownlinkRANStatusTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_31_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DownlinkRIMInformationTransfer },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_32_Ngap_id_DownlinkRIMInformationTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_32_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_DownlinkUEAssociatedNRPPaTransport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_26_Ngap_id_DownlinkUEAssociatedNRPPaTransport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_26_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_33_Ngap_id_DownlinkUEAssociatedNRPPaTransport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_33_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_ErrorIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_27_Ngap_id_ErrorIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_27_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_34_Ngap_id_ErrorIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_34_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_HandoverNotify },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_28_Ngap_id_HandoverNotification },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_28_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_35_Ngap_id_HandoverNotification },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_35_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_HandoverSuccess },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_36_Ngap_id_HandoverSuccess },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_36_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_InitialUEMessage },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_29_Ngap_id_InitialUEMessage },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_29_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_37_Ngap_id_InitialUEMessage },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_37_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_LocationReport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_30_Ngap_id_LocationReport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_30_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_38_Ngap_id_LocationReport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_38_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_LocationReportingControl },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_31_Ngap_id_LocationReportingControl },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_31_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_39_Ngap_id_LocationReportingControl },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_39_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_LocationReportingFailureIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_32_Ngap_id_LocationReportingFailureIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_32_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_40_Ngap_id_LocationReportingFailureIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_40_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_NASNonDeliveryIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_33_Ngap_id_NASNonDeliveryIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_33_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_41_Ngap_id_NASNonDeliveryIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_41_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_OverloadStart },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_34_Ngap_id_OverloadStart },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_34_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_42_Ngap_id_OverloadStart },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_42_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_OverloadStop },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_35_Ngap_id_OverloadStop },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_35_Ngap_reject },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_43_Ngap_id_OverloadStop },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_43_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_Paging },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_36_Ngap_id_Paging },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_36_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_44_Ngap_id_Paging },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_44_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_PDUSessionResourceNotify },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_37_Ngap_id_PDUSessionResourceNotify },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_37_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_45_Ngap_id_PDUSessionResourceNotify },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_45_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_PrivateMessage },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_38_Ngap_id_PrivateMessage },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_38_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_46_Ngap_id_PrivateMessage },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_46_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_PWSFailureIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_39_Ngap_id_PWSFailureIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_39_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_47_Ngap_id_PWSFailureIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_47_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_PWSRestartIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_40_Ngap_id_PWSRestartIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_40_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_48_Ngap_id_PWSRestartIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_48_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_RANCPRelocationIndication },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_49_Ngap_id_RANCPRelocationIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_49_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_RerouteNASRequest },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_41_Ngap_id_RerouteNASRequest },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_41_Ngap_reject },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_50_Ngap_id_RerouteNASRequest },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_50_Ngap_reject },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_RetrieveUEInformation },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_51_Ngap_id_RetrieveUEInformation },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_51_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_RRCInactiveTransitionReport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_42_Ngap_id_RRCInactiveTransitionReport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_42_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_52_Ngap_id_RRCInactiveTransitionReport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_52_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_SecondaryRATDataUsageReport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_43_Ngap_id_SecondaryRATDataUsageReport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_43_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_53_Ngap_id_SecondaryRATDataUsageReport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_53_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_TraceFailureIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_44_Ngap_id_TraceFailureIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_44_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_54_Ngap_id_TraceFailureIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_54_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_TraceStart },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_45_Ngap_id_TraceStart },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_45_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_55_Ngap_id_TraceStart },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_55_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UEContextReleaseRequest },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_46_Ngap_id_UEContextReleaseRequest },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_46_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_56_Ngap_id_UEContextReleaseRequest },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_56_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UEInformationTransfer },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_57_Ngap_id_UEInformationTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_57_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UERadioCapabilityInfoIndication },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_47_Ngap_id_UERadioCapabilityInfoIndication },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_47_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_58_Ngap_id_UERadioCapabilityInfoIndication },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_58_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UETNLABindingReleaseRequest },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_48_Ngap_id_UETNLABindingRelease },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_48_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_59_Ngap_id_UETNLABindingRelease },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_59_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UplinkNASTransport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_49_Ngap_id_UplinkNASTransport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_49_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_60_Ngap_id_UplinkNASTransport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_60_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UplinkNonUEAssociatedNRPPaTransport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_50_Ngap_id_UplinkNonUEAssociatedNRPPaTransport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_50_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_61_Ngap_id_UplinkNonUEAssociatedNRPPaTransport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_61_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UplinkRANConfigurationTransfer },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_51_Ngap_id_UplinkRANConfigurationTransfer },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_51_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_62_Ngap_id_UplinkRANConfigurationTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_62_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UplinkRANEarlyStatusTransfer },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_63_Ngap_id_UplinkRANEarlyStatusTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_63_Ngap_reject },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UplinkRANStatusTransfer },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_52_Ngap_id_UplinkRANStatusTransfer },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_52_Ngap_ignore },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_64_Ngap_id_UplinkRANStatusTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_64_Ngap_ignore },
+	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UplinkRIMInformationTransfer },
+	{ "&SuccessfulOutcome",  },
+	{ "&UnsuccessfulOutcome",  },
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_65_Ngap_id_UplinkRIMInformationTransfer },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_65_Ngap_ignore },
 	{ "&InitiatingMessage", aioc__type, &asn_DEF_Ngap_UplinkUEAssociatedNRPPaTransport },
 	{ "&SuccessfulOutcome",  },
 	{ "&UnsuccessfulOutcome",  },
-	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_53_Ngap_id_UplinkUEAssociatedNRPPaTransport },
-	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_53_Ngap_ignore }
+	{ "&procedureCode", aioc__value, &asn_DEF_Ngap_ProcedureCode, &asn_VAL_66_Ngap_id_UplinkUEAssociatedNRPPaTransport },
+	{ "&criticality", aioc__value, &asn_DEF_Ngap_Criticality, &asn_VAL_66_Ngap_ignore }
 };
 static const asn_ioc_set_t asn_IOS_Ngap_NGAP_ELEMENTARY_PROCEDURES_1[] = {
-	{ 53, 5, asn_IOS_Ngap_NGAP_ELEMENTARY_PROCEDURES_1_rows }
+	{ 66, 5, asn_IOS_Ngap_NGAP_ELEMENTARY_PROCEDURES_1_rows }
 };
 static int
 memb_Ngap_procedureCode_constraint_1(const asn_TYPE_descriptor_t *td, const void *sptr,
@@ -597,16 +688,36 @@ static asn_TYPE_member_t asn_MBR_Ngap_value_4[] = {
 		0, 0, /* No default value */
 		"UEContextModificationFailure"
 		},
+	{ ATF_NOFLAGS, 0, offsetof(struct Ngap_UnsuccessfulOutcome__value, choice.UEContextResumeFailure),
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UEContextResumeFailure,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		"UEContextResumeFailure"
+		},
+	{ ATF_NOFLAGS, 0, offsetof(struct Ngap_UnsuccessfulOutcome__value, choice.UEContextSuspendFailure),
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UEContextSuspendFailure,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		"UEContextSuspendFailure"
+		},
 };
 static const asn_TYPE_tag2member_t asn_MAP_Ngap_value_tag2el_4[] = {
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 0, 0, 7 }, /* AMFConfigurationUpdateFailure */
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 1, -1, 6 }, /* HandoverPreparationFailure */
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 2, -2, 5 }, /* HandoverFailure */
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 3, -3, 4 }, /* InitialContextSetupFailure */
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 4, -4, 3 }, /* NGSetupFailure */
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 5, -5, 2 }, /* PathSwitchRequestFailure */
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 6, -6, 1 }, /* RANConfigurationUpdateFailure */
-    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 7, -7, 0 } /* UEContextModificationFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 0, 0, 9 }, /* AMFConfigurationUpdateFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 1, -1, 8 }, /* HandoverPreparationFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 2, -2, 7 }, /* HandoverFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 3, -3, 6 }, /* InitialContextSetupFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 4, -4, 5 }, /* NGSetupFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 5, -5, 4 }, /* PathSwitchRequestFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 6, -6, 3 }, /* RANConfigurationUpdateFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 7, -7, 2 }, /* UEContextModificationFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 8, -8, 1 }, /* UEContextResumeFailure */
+    { (ASN_TAG_CLASS_UNIVERSAL | (16 << 2)), 9, -9, 0 } /* UEContextSuspendFailure */
 };
 static asn_CHOICE_specifics_t asn_SPC_Ngap_value_specs_4 = {
 	sizeof(struct Ngap_UnsuccessfulOutcome__value),
@@ -614,7 +725,7 @@ static asn_CHOICE_specifics_t asn_SPC_Ngap_value_specs_4 = {
 	offsetof(struct Ngap_UnsuccessfulOutcome__value, present),
 	sizeof(((struct Ngap_UnsuccessfulOutcome__value *)0)->present),
 	asn_MAP_Ngap_value_tag2el_4,
-	8,	/* Count of tags in the map */
+	10,	/* Count of tags in the map */
 	0, 0,
 	-1	/* Extensions start */
 };
@@ -629,7 +740,7 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_value_4 = {
 	0,	/* No tags (count) */
 	{ 0, 0, OPEN_TYPE_constraint },
 	asn_MBR_Ngap_value_4,
-	8,	/* Elements count */
+	10,	/* Elements count */
 	&asn_SPC_Ngap_value_specs_4	/* Additional specs */
 };
 

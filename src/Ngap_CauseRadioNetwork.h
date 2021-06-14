@@ -69,7 +69,11 @@ typedef enum Ngap_CauseRadioNetwork {
 	 * Enumeration is extensible
 	 */
 	Ngap_CauseRadioNetwork_n26_interface_not_available	= 45,
-	Ngap_CauseRadioNetwork_release_due_to_pre_emption	= 46
+	Ngap_CauseRadioNetwork_release_due_to_pre_emption	= 46,
+	Ngap_CauseRadioNetwork_multiple_location_reporting_reference_ID_instances	= 47,
+	Ngap_CauseRadioNetwork_rsn_not_available_for_the_up	= 48,
+	Ngap_CauseRadioNetwork_npn_access_denied	= 49,
+	Ngap_CauseRadioNetwork_cag_only_access_denied	= 50
 } e_Ngap_CauseRadioNetwork;
 
 /* Ngap_CauseRadioNetwork */

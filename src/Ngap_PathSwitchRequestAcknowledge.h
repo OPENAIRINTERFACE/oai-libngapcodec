@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_PathSwitchRequestAcknowledge */
 typedef struct Ngap_PathSwitchRequestAcknowledge {
-	Ngap_ProtocolIE_Container_124P29_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P38_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

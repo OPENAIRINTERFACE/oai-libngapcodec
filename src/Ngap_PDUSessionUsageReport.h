@@ -23,10 +23,12 @@ extern "C" {
 /* Dependencies */
 typedef enum Ngap_PDUSessionUsageReport__rATType {
 	Ngap_PDUSessionUsageReport__rATType_nr	= 0,
-	Ngap_PDUSessionUsageReport__rATType_eutra	= 1
+	Ngap_PDUSessionUsageReport__rATType_eutra	= 1,
 	/*
 	 * Enumeration is extensible
 	 */
+	Ngap_PDUSessionUsageReport__rATType_nr_unlicensed	= 2,
+	Ngap_PDUSessionUsageReport__rATType_e_utra_unlicensed	= 3
 } e_Ngap_PDUSessionUsageReport__rATType;
 
 /* Forward declarations */

@@ -23,6 +23,8 @@ extern "C" {
 struct Ngap_AdditionalDLUPTNLInformationForHOItem_ExtIEs;
 struct Ngap_AllocationAndRetentionPriority_ExtIEs;
 struct Ngap_AllowedNSSAI_Item_ExtIEs;
+struct Ngap_Allowed_PNI_NPN_Item_ExtIEs;
+struct Ngap_AlternativeQoSParaSetItem_ExtIEs;
 struct Ngap_AMF_TNLAssociationSetupItem_ExtIEs;
 struct Ngap_AMF_TNLAssociationToAddItem_ExtIEs;
 struct Ngap_AMF_TNLAssociationToRemoveItem_ExtIEs;
@@ -35,26 +37,42 @@ struct Ngap_AreaOfInterestTAIItem_ExtIEs;
 struct Ngap_AssistanceDataForPaging_ExtIEs;
 struct Ngap_AssistanceDataForRecommendedCells_ExtIEs;
 struct Ngap_AssociatedQosFlowItem_ExtIEs;
+struct Ngap_AreaScopeOfNeighCellsItem_ExtIEs;
 struct Ngap_BroadcastPLMNItem_ExtIEs;
+struct Ngap_BluetoothMeasurementConfiguration_ExtIEs;
+struct Ngap_BluetoothMeasConfigNameItem_ExtIEs;
 struct Ngap_CancelledCellsInEAI_EUTRA_Item_ExtIEs;
 struct Ngap_CancelledCellsInEAI_NR_Item_ExtIEs;
 struct Ngap_CancelledCellsInTAI_EUTRA_Item_ExtIEs;
 struct Ngap_CancelledCellsInTAI_NR_Item_ExtIEs;
+struct Ngap_CandidateCellItem_ExtIEs;
+struct Ngap_CandidateCellID_ExtIEs;
+struct Ngap_CandidatePCI_ExtIEs;
+struct Ngap_Cell_CAGInformation_ExtIEs;
 struct Ngap_CellIDBroadcastEUTRA_Item_ExtIEs;
 struct Ngap_CellIDBroadcastNR_Item_ExtIEs;
 struct Ngap_CellIDCancelledEUTRA_Item_ExtIEs;
 struct Ngap_CellIDCancelledNR_Item_ExtIEs;
 struct Ngap_CellType_ExtIEs;
+struct Ngap_CNAssistedRANTuning_ExtIEs;
+struct Ngap_CNTypeRestrictionsForEquivalentItem_ExtIEs;
 struct Ngap_CompletedCellsInEAI_EUTRA_Item_ExtIEs;
 struct Ngap_CompletedCellsInEAI_NR_Item_ExtIEs;
 struct Ngap_CompletedCellsInTAI_EUTRA_Item_ExtIEs;
 struct Ngap_CompletedCellsInTAI_NR_Item_ExtIEs;
-struct Ngap_CoreNetworkAssistanceInformation_ExtIEs;
+struct Ngap_CoreNetworkAssistanceInformationForInactive_ExtIEs;
 struct Ngap_COUNTValueForPDCP_SN12_ExtIEs;
 struct Ngap_COUNTValueForPDCP_SN18_ExtIEs;
 struct Ngap_CriticalityDiagnostics_ExtIEs;
 struct Ngap_CriticalityDiagnostics_IE_Item_ExtIEs;
+struct Ngap_CellBasedMDT_NR_ExtIEs;
+struct Ngap_CellBasedMDT_EUTRA_ExtIEs;
 struct Ngap_DataForwardingResponseDRBItem_ExtIEs;
+struct Ngap_DAPSRequestInfo_ExtIEs;
+struct Ngap_DAPSResponseInfoItem_ExtIEs;
+struct Ngap_DAPSResponseInfo_ExtIEs;
+struct Ngap_DataForwardingResponseERABListItem_ExtIEs;
+struct Ngap_DL_CP_SecurityInformation_ExtIEs;
 struct Ngap_DRBsSubjectToStatusTransferItem_ExtIEs;
 struct Ngap_DRBStatusDL12_ExtIEs;
 struct Ngap_DRBStatusDL18_ExtIEs;
@@ -62,23 +80,39 @@ struct Ngap_DRBStatusUL12_ExtIEs;
 struct Ngap_DRBStatusUL18_ExtIEs;
 struct Ngap_DRBsToQosFlowsMappingItem_ExtIEs;
 struct Ngap_Dynamic5QIDescriptor_ExtIEs;
+struct Ngap_EarlyStatusTransfer_TransparentContainer_ExtIEs;
+struct Ngap_FirstDLCount_ExtIEs;
+struct Ngap_DRBsSubjectToEarlyStatusTransfer_Item_ExtIEs;
 struct Ngap_EmergencyAreaIDBroadcastEUTRA_Item_ExtIEs;
 struct Ngap_EmergencyAreaIDBroadcastNR_Item_ExtIEs;
 struct Ngap_EmergencyAreaIDCancelledEUTRA_Item_ExtIEs;
 struct Ngap_EmergencyAreaIDCancelledNR_Item_ExtIEs;
 struct Ngap_EmergencyFallbackIndicator_ExtIEs;
+struct Ngap_EndpointIPAddressAndPort_ExtIEs;
 struct Ngap_EPS_TAI_ExtIEs;
 struct Ngap_E_RABInformationItem_ExtIEs;
 struct Ngap_EUTRA_CGI_ExtIEs;
 struct Ngap_ExpectedUEActivityBehaviour_ExtIEs;
 struct Ngap_ExpectedUEBehaviour_ExtIEs;
 struct Ngap_ExpectedUEMovingTrajectoryItem_ExtIEs;
+struct Ngap_Extended_AMFName_ExtIEs;
+struct Ngap_Extended_RANNodeName_ExtIEs;
+struct Ngap_ExtendedRATRestrictionInformation_ExtIEs;
+struct Ngap_EventL1LoggedMDTConfig_ExtIEs;
+struct Ngap_FailureIndication_ExtIEs;
 struct Ngap_FiveG_S_TMSI_ExtIEs;
 struct Ngap_ForbiddenAreaInformation_Item_ExtIEs;
+struct Ngap_FromEUTRANtoNGRAN_ExtIEs;
+struct Ngap_FromNGRANtoEUTRAN_ExtIEs;
 struct Ngap_GBR_QosInformation_ExtIEs;
+struct Ngap_GlobalENB_ID_ExtIEs;
 struct Ngap_GlobalGNB_ID_ExtIEs;
 struct Ngap_GlobalN3IWF_ID_ExtIEs;
+struct Ngap_GlobalLine_ID_ExtIEs;
 struct Ngap_GlobalNgENB_ID_ExtIEs;
+struct Ngap_GlobalTNGF_ID_ExtIEs;
+struct Ngap_GlobalTWIF_ID_ExtIEs;
+struct Ngap_GlobalW_AGF_ID_ExtIEs;
 struct Ngap_GTPTunnel_ExtIEs;
 struct Ngap_GUAMI_ExtIEs;
 struct Ngap_HandoverCommandTransfer_ExtIEs;
@@ -86,24 +120,60 @@ struct Ngap_HandoverPreparationUnsuccessfulTransfer_ExtIEs;
 struct Ngap_HandoverRequestAcknowledgeTransfer_ExtIEs;
 struct Ngap_HandoverRequiredTransfer_ExtIEs;
 struct Ngap_HandoverResourceAllocationUnsuccessfulTransfer_ExtIEs;
+struct Ngap_HOReport_ExtIEs;
 struct Ngap_InfoOnRecommendedCellsAndRANNodesForPaging_ExtIEs;
+struct Ngap_ImmediateMDTNr_ExtIEs;
+struct Ngap_InterSystemFailureIndication_ExtIEs;
+struct Ngap_IntersystemSONConfigurationTransfer_ExtIEs;
+struct Ngap_IntersystemSONeNBID_ExtIEs;
+struct Ngap_IntersystemSONNGRANnodeID_ExtIEs;
+struct Ngap_InterSystemHOReport_ExtIEs;
+struct Ngap_IntersystemUnnecessaryHO_ExtIEs;
+struct Ngap_LAI_ExtIEs;
 struct Ngap_LastVisitedCellItem_ExtIEs;
 struct Ngap_LastVisitedNGRANCellInformation_ExtIEs;
 struct Ngap_LocationReportingRequestType_ExtIEs;
+struct Ngap_LoggedMDTNr_ExtIEs;
+struct Ngap_LTEV2XServicesAuthorized_ExtIEs;
+struct Ngap_LTEUE_Sidelink_Aggregate_MaximumBitrates_ExtIEs;
 struct Ngap_MobilityRestrictionList_ExtIEs;
+struct Ngap_MDT_Configuration_ExtIEs;
+struct Ngap_MDT_Configuration_NR_ExtIEs;
+struct Ngap_MDT_Configuration_EUTRA_ExtIEs;
+struct Ngap_M1Configuration_ExtIEs;
+struct Ngap_M1ThresholdEventA2_ExtIEs;
+struct Ngap_M1PeriodicReporting_ExtIEs;
+struct Ngap_M4Configuration_ExtIEs;
+struct Ngap_M5Configuration_ExtIEs;
+struct Ngap_M6Configuration_ExtIEs;
+struct Ngap_M7Configuration_ExtIEs;
+struct Ngap_MDT_Location_Info_ExtIEs;
+struct Ngap_NB_IoT_Paging_eDRXInfo_ExtIEs;
+struct Ngap_NGRAN_TNLAssociationToRemoveItem_ExtIEs;
 struct Ngap_NonDynamic5QIDescriptor_ExtIEs;
 struct Ngap_NR_CGI_ExtIEs;
+struct Ngap_NRFrequencyBandItem_ExtIEs;
+struct Ngap_NRFrequencyInfo_ExtIEs;
+struct Ngap_NRV2XServicesAuthorized_ExtIEs;
+struct Ngap_NRUESidelinkAggregateMaximumBitrate_ExtIEs;
 struct Ngap_OverloadStartNSSAIItem_ExtIEs;
 struct Ngap_PacketErrorRate_ExtIEs;
+struct Ngap_PagingAssisDataforCEcapabUE_ExtIEs;
 struct Ngap_PagingAttemptInformation_ExtIEs;
+struct Ngap_PagingeDRXInformation_ExtIEs;
 struct Ngap_PathSwitchRequestAcknowledgeTransfer_ExtIEs;
 struct Ngap_PathSwitchRequestSetupFailedTransfer_ExtIEs;
 struct Ngap_PathSwitchRequestTransfer_ExtIEs;
 struct Ngap_PathSwitchRequestUnsuccessfulTransfer_ExtIEs;
+struct Ngap_PC5QoSParameters_ExtIEs;
+struct Ngap_PC5QoSFlowItem_ExtIEs;
+struct Ngap_PC5FlowBitRates_ExtIEs;
 struct Ngap_PDUSessionAggregateMaximumBitRate_ExtIEs;
 struct Ngap_PDUSessionResourceAdmittedItem_ExtIEs;
 struct Ngap_PDUSessionResourceFailedToModifyItemModCfm_ExtIEs;
 struct Ngap_PDUSessionResourceFailedToModifyItemModRes_ExtIEs;
+struct Ngap_PDUSessionResourceFailedToResumeItemRESReq_ExtIEs;
+struct Ngap_PDUSessionResourceFailedToResumeItemRESRes_ExtIEs;
 struct Ngap_PDUSessionResourceFailedToSetupItemCxtFail_ExtIEs;
 struct Ngap_PDUSessionResourceFailedToSetupItemCxtRes_ExtIEs;
 struct Ngap_PDUSessionResourceFailedToSetupItemHOAck_ExtIEs;
@@ -132,6 +202,8 @@ struct Ngap_PDUSessionResourceReleasedItemPSAck_ExtIEs;
 struct Ngap_PDUSessionResourceReleasedItemPSFail_ExtIEs;
 struct Ngap_PDUSessionResourceReleasedItemRelRes_ExtIEs;
 struct Ngap_PDUSessionResourceReleaseResponseTransfer_ExtIEs;
+struct Ngap_PDUSessionResourceResumeItemRESReq_ExtIEs;
+struct Ngap_PDUSessionResourceResumeItemRESRes_ExtIEs;
 struct Ngap_PDUSessionResourceSecondaryRATUsageItem_ExtIEs;
 struct Ngap_PDUSessionResourceSetupItemCxtReq_ExtIEs;
 struct Ngap_PDUSessionResourceSetupItemCxtRes_ExtIEs;
@@ -140,25 +212,28 @@ struct Ngap_PDUSessionResourceSetupItemSUReq_ExtIEs;
 struct Ngap_PDUSessionResourceSetupItemSURes_ExtIEs;
 struct Ngap_PDUSessionResourceSetupResponseTransfer_ExtIEs;
 struct Ngap_PDUSessionResourceSetupUnsuccessfulTransfer_ExtIEs;
+struct Ngap_PDUSessionResourceSuspendItemSUSReq_ExtIEs;
 struct Ngap_PDUSessionResourceSwitchedItem_ExtIEs;
 struct Ngap_PDUSessionResourceToBeSwitchedDLItem_ExtIEs;
 struct Ngap_PDUSessionResourceToReleaseItemHOCmd_ExtIEs;
 struct Ngap_PDUSessionResourceToReleaseItemRelCmd_ExtIEs;
 struct Ngap_PDUSessionUsageReport_ExtIEs;
 struct Ngap_PLMNSupportItem_ExtIEs;
+struct Ngap_PNI_NPN_MobilityInformation_ExtIEs;
 struct Ngap_QosFlowAcceptedItem_ExtIEs;
 struct Ngap_QosFlowAddOrModifyRequestItem_ExtIEs;
 struct Ngap_QosFlowAddOrModifyResponseItem_ExtIEs;
+struct Ngap_QosFlowFeedbackItem_ExtIEs;
 struct Ngap_QosFlowInformationItem_ExtIEs;
 struct Ngap_QosFlowLevelQosParameters_ExtIEs;
 struct Ngap_QosFlowWithCauseItem_ExtIEs;
 struct Ngap_QosFlowModifyConfirmItem_ExtIEs;
 struct Ngap_QosFlowNotifyItem_ExtIEs;
+struct Ngap_QosFlowParametersItem_ExtIEs;
 struct Ngap_QosFlowPerTNLInformation_ExtIEs;
 struct Ngap_QosFlowPerTNLInformationItem_ExtIEs;
 struct Ngap_QosFlowSetupRequestItem_ExtIEs;
 struct Ngap_QosFlowItemWithDataForwarding_ExtIEs;
-struct Ngap_QosFlowSetupResponseItemSURes_ExtIEs;
 struct Ngap_QosFlowToBeForwardedItem_ExtIEs;
 struct Ngap_QoSFlowsUsageReport_Item_ExtIEs;
 struct Ngap_RANStatusTransfer_TransparentContainer_ExtIEs;
@@ -167,20 +242,28 @@ struct Ngap_RecommendedCellsForPaging_ExtIEs;
 struct Ngap_RecommendedCellItem_ExtIEs;
 struct Ngap_RecommendedRANNodesForPaging_ExtIEs;
 struct Ngap_RecommendedRANNodeItem_ExtIEs;
+struct Ngap_RedundantPDUSessionInformation_ExtIEs;
+struct Ngap_RIMInformationTransfer_ExtIEs;
+struct Ngap_RIMInformation_ExtIEs;
+struct Ngap_ScheduledCommunicationTime_ExtIEs;
 struct Ngap_SecondaryRATUsageInformation_ExtIEs;
 struct Ngap_SecondaryRATDataUsageReportTransfer_ExtIEs;
 struct Ngap_SecurityContext_ExtIEs;
 struct Ngap_SecurityIndication_ExtIEs;
 struct Ngap_SecurityResult_ExtIEs;
+struct Ngap_SensorMeasurementConfiguration_ExtIEs;
+struct Ngap_SensorMeasConfigNameItem_ExtIEs;
 struct Ngap_ServedGUAMIItem_ExtIEs;
 struct Ngap_ServiceAreaInformation_Item_ExtIEs;
 struct Ngap_SliceOverloadItem_ExtIEs;
 struct Ngap_SliceSupportItem_ExtIEs;
+struct Ngap_SNPN_MobilityInformation_ExtIEs;
 struct Ngap_S_NSSAI_ExtIEs;
 struct Ngap_SONConfigurationTransfer_ExtIEs;
 struct Ngap_SONInformationReply_ExtIEs;
 struct Ngap_SourceNGRANNode_ToTargetNGRANNode_TransparentContainer_ExtIEs;
 struct Ngap_SourceRANNodeID_ExtIEs;
+struct Ngap_SourceToTarget_AMFInformationReroute_ExtIEs;
 struct Ngap_SupportedTAItem_ExtIEs;
 struct Ngap_TAI_ExtIEs;
 struct Ngap_TAIBroadcastEUTRA_Item_ExtIEs;
@@ -191,24 +274,41 @@ struct Ngap_TAIListForInactiveItem_ExtIEs;
 struct Ngap_TAIListForPagingItem_ExtIEs;
 struct Ngap_TargeteNB_ID_ExtIEs;
 struct Ngap_TargetNGRANNode_ToSourceNGRANNode_TransparentContainer_ExtIEs;
+struct Ngap_TargetNGRANNode_ToSourceNGRANNode_FailureTransparentContainer_ExtIEs;
 struct Ngap_TargetRANNodeID_ExtIEs;
+struct Ngap_TargetRNC_ID_ExtIEs;
 struct Ngap_TNLAssociationItem_ExtIEs;
+struct Ngap_TooearlyIntersystemHO_ExtIEs;
 struct Ngap_TraceActivation_ExtIEs;
+struct Ngap_TAIBasedMDT_ExtIEs;
+struct Ngap_TABasedMDT_ExtIEs;
+struct Ngap_TSCAssistanceInformation_ExtIEs;
+struct Ngap_TSCTrafficCharacteristics_ExtIEs;
 struct Ngap_UEAggregateMaximumBitRate_ExtIEs;
 struct Ngap_UE_associatedLogicalNG_connectionItem_ExtIEs;
+struct Ngap_UEContextResumeRequestTransfer_ExtIEs;
+struct Ngap_UEContextResumeResponseTransfer_ExtIEs;
+struct Ngap_UEContextSuspendRequestTransfer_ExtIEs;
+struct Ngap_UE_DifferentiationInfo_ExtIEs;
 struct Ngap_UE_NGAP_ID_pair_ExtIEs;
 struct Ngap_UEPresenceInAreaOfInterestItem_ExtIEs;
 struct Ngap_UERadioCapabilityForPaging_ExtIEs;
 struct Ngap_UESecurityCapabilities_ExtIEs;
+struct Ngap_UL_CP_SecurityInformation_ExtIEs;
 struct Ngap_UL_NGU_UP_TNLModifyItem_ExtIEs;
 struct Ngap_UnavailableGUAMIItem_ExtIEs;
 struct Ngap_UPTransportLayerInformationItem_ExtIEs;
 struct Ngap_UPTransportLayerInformationPairItem_ExtIEs;
 struct Ngap_UserLocationInformationEUTRA_ExtIEs;
 struct Ngap_UserLocationInformationN3IWF_ExtIEs;
+struct Ngap_UserLocationInformationTNGF_ExtIEs;
+struct Ngap_UserLocationInformationTWIF_ExtIEs;
 struct Ngap_UserLocationInformationNR_ExtIEs;
 struct Ngap_UserPlaneSecurityInformation_ExtIEs;
 struct Ngap_VolumeTimedReport_Item_ExtIEs;
+struct Ngap_WLANMeasurementConfiguration_ExtIEs;
+struct Ngap_WLANMeasConfigNameItem_ExtIEs;
+struct Ngap_WUS_Assistance_Information_ExtIEs;
 struct Ngap_XnExtTLA_Item_ExtIEs;
 struct Ngap_XnTNLConfigurationInfo_ExtIEs;
 
@@ -232,1133 +332,1733 @@ typedef struct Ngap_ProtocolExtensionContainer_175P2 {
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P2_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P3 {
-	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationSetupItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_Allowed_PNI_NPN_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P3_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P4 {
-	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationToAddItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AlternativeQoSParaSetItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P4_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P5 {
-	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationToRemoveItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationSetupItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P5_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P6 {
-	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationToUpdateItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationToAddItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P6_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P7 {
-	A_SEQUENCE_OF(struct Ngap_AreaOfInterest_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationToRemoveItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P7_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P8 {
-	A_SEQUENCE_OF(struct Ngap_AreaOfInterestCellItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMF_TNLAssociationToUpdateItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P8_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P9 {
-	A_SEQUENCE_OF(struct Ngap_AreaOfInterestItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AreaOfInterest_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P9_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P10 {
-	A_SEQUENCE_OF(struct Ngap_AreaOfInterestRANNodeItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AreaOfInterestCellItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P10_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P11 {
-	A_SEQUENCE_OF(struct Ngap_AreaOfInterestTAIItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AreaOfInterestItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P11_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P12 {
-	A_SEQUENCE_OF(struct Ngap_AssistanceDataForPaging_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AreaOfInterestRANNodeItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P12_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P13 {
-	A_SEQUENCE_OF(struct Ngap_AssistanceDataForRecommendedCells_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AreaOfInterestTAIItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P13_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P14 {
-	A_SEQUENCE_OF(struct Ngap_AssociatedQosFlowItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AssistanceDataForPaging_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P14_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P15 {
-	A_SEQUENCE_OF(struct Ngap_BroadcastPLMNItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AssistanceDataForRecommendedCells_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P15_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P16 {
-	A_SEQUENCE_OF(struct Ngap_CancelledCellsInEAI_EUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AssociatedQosFlowItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P16_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P17 {
-	A_SEQUENCE_OF(struct Ngap_CancelledCellsInEAI_NR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AreaScopeOfNeighCellsItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P17_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P18 {
-	A_SEQUENCE_OF(struct Ngap_CancelledCellsInTAI_EUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_BroadcastPLMNItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P18_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P19 {
-	A_SEQUENCE_OF(struct Ngap_CancelledCellsInTAI_NR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_BluetoothMeasurementConfiguration_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P19_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P20 {
-	A_SEQUENCE_OF(struct Ngap_CellIDBroadcastEUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_BluetoothMeasConfigNameItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P20_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P21 {
-	A_SEQUENCE_OF(struct Ngap_CellIDBroadcastNR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CancelledCellsInEAI_EUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P21_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P22 {
-	A_SEQUENCE_OF(struct Ngap_CellIDCancelledEUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CancelledCellsInEAI_NR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P22_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P23 {
-	A_SEQUENCE_OF(struct Ngap_CellIDCancelledNR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CancelledCellsInTAI_EUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P23_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P24 {
-	A_SEQUENCE_OF(struct Ngap_CellType_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CancelledCellsInTAI_NR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P24_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P25 {
-	A_SEQUENCE_OF(struct Ngap_CompletedCellsInEAI_EUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CandidateCellItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P25_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P26 {
-	A_SEQUENCE_OF(struct Ngap_CompletedCellsInEAI_NR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CandidateCellID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P26_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P27 {
-	A_SEQUENCE_OF(struct Ngap_CompletedCellsInTAI_EUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CandidatePCI_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P27_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P28 {
-	A_SEQUENCE_OF(struct Ngap_CompletedCellsInTAI_NR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_Cell_CAGInformation_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P28_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P29 {
-	A_SEQUENCE_OF(struct Ngap_CoreNetworkAssistanceInformation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CellIDBroadcastEUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P29_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P30 {
-	A_SEQUENCE_OF(struct Ngap_COUNTValueForPDCP_SN12_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CellIDBroadcastNR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P30_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P31 {
-	A_SEQUENCE_OF(struct Ngap_COUNTValueForPDCP_SN18_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CellIDCancelledEUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P31_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P32 {
-	A_SEQUENCE_OF(struct Ngap_CriticalityDiagnostics_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CellIDCancelledNR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P32_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P33 {
-	A_SEQUENCE_OF(struct Ngap_CriticalityDiagnostics_IE_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CellType_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P33_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P34 {
-	A_SEQUENCE_OF(struct Ngap_DataForwardingResponseDRBItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CNAssistedRANTuning_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P34_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P35 {
-	A_SEQUENCE_OF(struct Ngap_DRBsSubjectToStatusTransferItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CNTypeRestrictionsForEquivalentItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P35_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P36 {
-	A_SEQUENCE_OF(struct Ngap_DRBStatusDL12_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CompletedCellsInEAI_EUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P36_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P37 {
-	A_SEQUENCE_OF(struct Ngap_DRBStatusDL18_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CompletedCellsInEAI_NR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P37_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P38 {
-	A_SEQUENCE_OF(struct Ngap_DRBStatusUL12_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CompletedCellsInTAI_EUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P38_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P39 {
-	A_SEQUENCE_OF(struct Ngap_DRBStatusUL18_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CompletedCellsInTAI_NR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P39_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P40 {
-	A_SEQUENCE_OF(struct Ngap_DRBsToQosFlowsMappingItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CoreNetworkAssistanceInformationForInactive_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P40_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P41 {
-	A_SEQUENCE_OF(struct Ngap_Dynamic5QIDescriptor_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_COUNTValueForPDCP_SN12_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P41_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P42 {
-	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDBroadcastEUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_COUNTValueForPDCP_SN18_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P42_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P43 {
-	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDBroadcastNR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CriticalityDiagnostics_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P43_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P44 {
-	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDCancelledEUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CriticalityDiagnostics_IE_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P44_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P45 {
-	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDCancelledNR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CellBasedMDT_NR_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P45_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P46 {
-	A_SEQUENCE_OF(struct Ngap_EmergencyFallbackIndicator_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_CellBasedMDT_EUTRA_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P46_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P47 {
-	A_SEQUENCE_OF(struct Ngap_EPS_TAI_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DataForwardingResponseDRBItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P47_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P48 {
-	A_SEQUENCE_OF(struct Ngap_E_RABInformationItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DAPSRequestInfo_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P48_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P49 {
-	A_SEQUENCE_OF(struct Ngap_EUTRA_CGI_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DAPSResponseInfoItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P49_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P50 {
-	A_SEQUENCE_OF(struct Ngap_ExpectedUEActivityBehaviour_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DAPSResponseInfo_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P50_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P51 {
-	A_SEQUENCE_OF(struct Ngap_ExpectedUEBehaviour_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DataForwardingResponseERABListItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P51_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P52 {
-	A_SEQUENCE_OF(struct Ngap_ExpectedUEMovingTrajectoryItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DL_CP_SecurityInformation_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P52_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P53 {
-	A_SEQUENCE_OF(struct Ngap_FiveG_S_TMSI_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DRBsSubjectToStatusTransferItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P53_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P54 {
-	A_SEQUENCE_OF(struct Ngap_ForbiddenAreaInformation_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DRBStatusDL12_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P54_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P55 {
-	A_SEQUENCE_OF(struct Ngap_GBR_QosInformation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DRBStatusDL18_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P55_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P56 {
-	A_SEQUENCE_OF(struct Ngap_GlobalGNB_ID_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DRBStatusUL12_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P56_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P57 {
-	A_SEQUENCE_OF(struct Ngap_GlobalN3IWF_ID_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DRBStatusUL18_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P57_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P58 {
-	A_SEQUENCE_OF(struct Ngap_GlobalNgENB_ID_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DRBsToQosFlowsMappingItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P58_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P59 {
-	A_SEQUENCE_OF(struct Ngap_GTPTunnel_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_Dynamic5QIDescriptor_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P59_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P60 {
-	A_SEQUENCE_OF(struct Ngap_GUAMI_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EarlyStatusTransfer_TransparentContainer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P60_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P61 {
-	A_SEQUENCE_OF(struct Ngap_HandoverCommandTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_FirstDLCount_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P61_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P62 {
-	A_SEQUENCE_OF(struct Ngap_HandoverPreparationUnsuccessfulTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DRBsSubjectToEarlyStatusTransfer_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P62_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P63 {
-	A_SEQUENCE_OF(struct Ngap_HandoverRequestAcknowledgeTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDBroadcastEUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P63_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P64 {
-	A_SEQUENCE_OF(struct Ngap_HandoverRequiredTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDBroadcastNR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P64_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P65 {
-	A_SEQUENCE_OF(struct Ngap_HandoverResourceAllocationUnsuccessfulTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDCancelledEUTRA_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P65_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P66 {
-	A_SEQUENCE_OF(struct Ngap_InfoOnRecommendedCellsAndRANNodesForPaging_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EmergencyAreaIDCancelledNR_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P66_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P67 {
-	A_SEQUENCE_OF(struct Ngap_LastVisitedCellItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EmergencyFallbackIndicator_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P67_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P68 {
-	A_SEQUENCE_OF(struct Ngap_LastVisitedNGRANCellInformation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EndpointIPAddressAndPort_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P68_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P69 {
-	A_SEQUENCE_OF(struct Ngap_LocationReportingRequestType_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EPS_TAI_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P69_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P70 {
-	A_SEQUENCE_OF(struct Ngap_MobilityRestrictionList_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_E_RABInformationItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P70_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P71 {
-	A_SEQUENCE_OF(struct Ngap_NonDynamic5QIDescriptor_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EUTRA_CGI_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P71_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P72 {
-	A_SEQUENCE_OF(struct Ngap_NR_CGI_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_ExpectedUEActivityBehaviour_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P72_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P73 {
-	A_SEQUENCE_OF(struct Ngap_OverloadStartNSSAIItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_ExpectedUEBehaviour_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P73_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P74 {
-	A_SEQUENCE_OF(struct Ngap_PacketErrorRate_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_ExpectedUEMovingTrajectoryItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P74_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P75 {
-	A_SEQUENCE_OF(struct Ngap_PagingAttemptInformation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_Extended_AMFName_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P75_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P76 {
-	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestAcknowledgeTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_Extended_RANNodeName_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P76_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P77 {
-	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestSetupFailedTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_ExtendedRATRestrictionInformation_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P77_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P78 {
-	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_EventL1LoggedMDTConfig_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P78_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P79 {
-	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestUnsuccessfulTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_FailureIndication_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P79_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P80 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionAggregateMaximumBitRate_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_FiveG_S_TMSI_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P80_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P81 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceAdmittedItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_ForbiddenAreaInformation_Item_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P81_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P82 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToModifyItemModCfm_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_FromEUTRANtoNGRAN_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P82_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P83 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToModifyItemModRes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_FromNGRANtoEUTRAN_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P83_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P84 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemCxtFail_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GBR_QosInformation_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P84_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P85 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemCxtRes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalENB_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P85_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P86 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemHOAck_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalGNB_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P86_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P87 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemPSReq_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalN3IWF_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P87_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P88 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemSURes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalLine_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P88_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P89 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceHandoverItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalNgENB_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P89_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P90 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceInformationItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalTNGF_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P90_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P91 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceItemCxtRelCpl_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalTWIF_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P91_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P92 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceItemCxtRelReq_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GlobalW_AGF_ID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P92_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P93 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceItemHORqd_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GTPTunnel_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P93_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P94 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyConfirmTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_GUAMI_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P94_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P95 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyIndicationUnsuccessfulTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverCommandTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P95_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P96 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyResponseTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverPreparationUnsuccessfulTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P96_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P97 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyIndicationTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverRequestAcknowledgeTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P97_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P98 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModCfm_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverRequiredTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P98_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P99 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModInd_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverResourceAllocationUnsuccessfulTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P99_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P100 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModReq_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HOReport_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P100_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P101 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModRes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_InfoOnRecommendedCellsAndRANNodesForPaging_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P101_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P102 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyUnsuccessfulTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_ImmediateMDTNr_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P102_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P103 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceNotifyItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_InterSystemFailureIndication_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P103_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P104 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceNotifyReleasedTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_IntersystemSONConfigurationTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P104_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P105 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceNotifyTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_IntersystemSONeNBID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P105_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P106 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleaseCommandTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_IntersystemSONNGRANnodeID_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P106_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P107 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemNot_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_InterSystemHOReport_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P107_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P108 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemPSAck_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_IntersystemUnnecessaryHO_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P108_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P109 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemPSFail_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_LAI_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P109_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P110 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemRelRes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_LastVisitedCellItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P110_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P111 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleaseResponseTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_LastVisitedNGRANCellInformation_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P111_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P112 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSecondaryRATUsageItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_LocationReportingRequestType_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P112_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P113 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemCxtReq_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_LoggedMDTNr_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P113_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P114 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemCxtRes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_LTEV2XServicesAuthorized_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P114_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P115 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemHOReq_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_LTEUE_Sidelink_Aggregate_MaximumBitrates_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P115_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P116 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemSUReq_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_MobilityRestrictionList_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P116_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P117 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemSURes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_MDT_Configuration_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P117_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P118 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupResponseTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_MDT_Configuration_NR_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P118_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P119 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupUnsuccessfulTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_MDT_Configuration_EUTRA_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P119_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P120 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSwitchedItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_M1Configuration_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P120_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P121 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceToBeSwitchedDLItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_M1ThresholdEventA2_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P121_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P122 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceToReleaseItemHOCmd_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_M1PeriodicReporting_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P122_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P123 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceToReleaseItemRelCmd_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_M4Configuration_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P123_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P124 {
-	A_SEQUENCE_OF(struct Ngap_PDUSessionUsageReport_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_M5Configuration_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P124_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P125 {
-	A_SEQUENCE_OF(struct Ngap_PLMNSupportItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_M6Configuration_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P125_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P126 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowAcceptedItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_M7Configuration_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P126_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P127 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowAddOrModifyRequestItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_MDT_Location_Info_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P127_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P128 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowAddOrModifyResponseItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NB_IoT_Paging_eDRXInfo_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P128_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P129 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowInformationItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NGRAN_TNLAssociationToRemoveItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P129_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P130 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowLevelQosParameters_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NonDynamic5QIDescriptor_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P130_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P131 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowWithCauseItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NR_CGI_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P131_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P132 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowModifyConfirmItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NRFrequencyBandItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P132_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P133 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowNotifyItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NRFrequencyInfo_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P133_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P134 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowPerTNLInformation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NRV2XServicesAuthorized_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P134_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P135 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowPerTNLInformationItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NRUESidelinkAggregateMaximumBitrate_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P135_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P136 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowSetupRequestItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_OverloadStartNSSAIItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P136_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P137 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowItemWithDataForwarding_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PacketErrorRate_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P137_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P138 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowSetupResponseItemSURes_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PagingAssisDataforCEcapabUE_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P138_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P139 {
-	A_SEQUENCE_OF(struct Ngap_QosFlowToBeForwardedItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PagingAttemptInformation_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P139_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P140 {
-	A_SEQUENCE_OF(struct Ngap_QoSFlowsUsageReport_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PagingeDRXInformation_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P140_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P141 {
-	A_SEQUENCE_OF(struct Ngap_RANStatusTransfer_TransparentContainer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestAcknowledgeTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P141_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P142 {
-	A_SEQUENCE_OF(struct Ngap_RATRestrictions_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestSetupFailedTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P142_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P143 {
-	A_SEQUENCE_OF(struct Ngap_RecommendedCellsForPaging_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P143_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P144 {
-	A_SEQUENCE_OF(struct Ngap_RecommendedCellItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestUnsuccessfulTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P144_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P145 {
-	A_SEQUENCE_OF(struct Ngap_RecommendedRANNodesForPaging_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PC5QoSParameters_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P145_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P146 {
-	A_SEQUENCE_OF(struct Ngap_RecommendedRANNodeItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PC5QoSFlowItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P146_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P147 {
-	A_SEQUENCE_OF(struct Ngap_SecondaryRATUsageInformation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PC5FlowBitRates_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P147_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P148 {
-	A_SEQUENCE_OF(struct Ngap_SecondaryRATDataUsageReportTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionAggregateMaximumBitRate_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P148_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P149 {
-	A_SEQUENCE_OF(struct Ngap_SecurityContext_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceAdmittedItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P149_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P150 {
-	A_SEQUENCE_OF(struct Ngap_SecurityIndication_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToModifyItemModCfm_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P150_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P151 {
-	A_SEQUENCE_OF(struct Ngap_SecurityResult_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToModifyItemModRes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P151_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P152 {
-	A_SEQUENCE_OF(struct Ngap_ServedGUAMIItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToResumeItemRESReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P152_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P153 {
-	A_SEQUENCE_OF(struct Ngap_ServiceAreaInformation_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToResumeItemRESRes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P153_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P154 {
-	A_SEQUENCE_OF(struct Ngap_SliceOverloadItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemCxtFail_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P154_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P155 {
-	A_SEQUENCE_OF(struct Ngap_SliceSupportItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemCxtRes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P155_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P156 {
-	A_SEQUENCE_OF(struct Ngap_S_NSSAI_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemHOAck_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P156_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P157 {
-	A_SEQUENCE_OF(struct Ngap_SONConfigurationTransfer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemPSReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P157_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P158 {
-	A_SEQUENCE_OF(struct Ngap_SONInformationReply_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceFailedToSetupItemSURes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P158_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P159 {
-	A_SEQUENCE_OF(struct Ngap_SourceNGRANNode_ToTargetNGRANNode_TransparentContainer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceHandoverItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P159_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P160 {
-	A_SEQUENCE_OF(struct Ngap_SourceRANNodeID_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceInformationItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P160_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P161 {
-	A_SEQUENCE_OF(struct Ngap_SupportedTAItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceItemCxtRelCpl_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P161_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P162 {
-	A_SEQUENCE_OF(struct Ngap_TAI_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceItemCxtRelReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P162_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P163 {
-	A_SEQUENCE_OF(struct Ngap_TAIBroadcastEUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceItemHORqd_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P163_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P164 {
-	A_SEQUENCE_OF(struct Ngap_TAIBroadcastNR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyConfirmTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P164_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P165 {
-	A_SEQUENCE_OF(struct Ngap_TAICancelledEUTRA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyIndicationUnsuccessfulTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P165_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P166 {
-	A_SEQUENCE_OF(struct Ngap_TAICancelledNR_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyResponseTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P166_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P167 {
-	A_SEQUENCE_OF(struct Ngap_TAIListForInactiveItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyIndicationTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P167_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P168 {
-	A_SEQUENCE_OF(struct Ngap_TAIListForPagingItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModCfm_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P168_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P169 {
-	A_SEQUENCE_OF(struct Ngap_TargeteNB_ID_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModInd_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P169_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P170 {
-	A_SEQUENCE_OF(struct Ngap_TargetNGRANNode_ToSourceNGRANNode_TransparentContainer_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P170_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P171 {
-	A_SEQUENCE_OF(struct Ngap_TargetRANNodeID_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyItemModRes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P171_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P172 {
-	A_SEQUENCE_OF(struct Ngap_TNLAssociationItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceModifyUnsuccessfulTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P172_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P173 {
-	A_SEQUENCE_OF(struct Ngap_TraceActivation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceNotifyItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P173_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P174 {
-	A_SEQUENCE_OF(struct Ngap_UEAggregateMaximumBitRate_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceNotifyReleasedTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P174_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P175 {
-	A_SEQUENCE_OF(struct Ngap_UE_associatedLogicalNG_connectionItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceNotifyTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P175_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P176 {
-	A_SEQUENCE_OF(struct Ngap_UE_NGAP_ID_pair_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleaseCommandTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P176_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P177 {
-	A_SEQUENCE_OF(struct Ngap_UEPresenceInAreaOfInterestItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemNot_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P177_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P178 {
-	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityForPaging_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemPSAck_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P178_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P179 {
-	A_SEQUENCE_OF(struct Ngap_UESecurityCapabilities_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemPSFail_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P179_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P180 {
-	A_SEQUENCE_OF(struct Ngap_UL_NGU_UP_TNLModifyItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleasedItemRelRes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P180_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P181 {
-	A_SEQUENCE_OF(struct Ngap_UnavailableGUAMIItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceReleaseResponseTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P181_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P182 {
-	A_SEQUENCE_OF(struct Ngap_UPTransportLayerInformationItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceResumeItemRESReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P182_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P183 {
-	A_SEQUENCE_OF(struct Ngap_UPTransportLayerInformationPairItem_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceResumeItemRESRes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P183_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P184 {
-	A_SEQUENCE_OF(struct Ngap_UserLocationInformationEUTRA_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSecondaryRATUsageItem_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P184_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P185 {
-	A_SEQUENCE_OF(struct Ngap_UserLocationInformationN3IWF_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemCxtReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P185_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P186 {
-	A_SEQUENCE_OF(struct Ngap_UserLocationInformationNR_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemCxtRes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P186_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P187 {
-	A_SEQUENCE_OF(struct Ngap_UserPlaneSecurityInformation_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemHOReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P187_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P188 {
-	A_SEQUENCE_OF(struct Ngap_VolumeTimedReport_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemSUReq_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P188_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P189 {
-	A_SEQUENCE_OF(struct Ngap_XnExtTLA_Item_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupItemSURes_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P189_t;
 typedef struct Ngap_ProtocolExtensionContainer_175P190 {
-	A_SEQUENCE_OF(struct Ngap_XnTNLConfigurationInfo_ExtIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupResponseTransfer_ExtIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolExtensionContainer_175P190_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P191 {
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSetupUnsuccessfulTransfer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P191_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P192 {
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSuspendItemSUSReq_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P192_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P193 {
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceSwitchedItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P193_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P194 {
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceToBeSwitchedDLItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P194_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P195 {
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceToReleaseItemHOCmd_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P195_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P196 {
+	A_SEQUENCE_OF(struct Ngap_PDUSessionResourceToReleaseItemRelCmd_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P196_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P197 {
+	A_SEQUENCE_OF(struct Ngap_PDUSessionUsageReport_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P197_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P198 {
+	A_SEQUENCE_OF(struct Ngap_PLMNSupportItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P198_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P199 {
+	A_SEQUENCE_OF(struct Ngap_PNI_NPN_MobilityInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P199_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P200 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowAcceptedItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P200_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P201 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowAddOrModifyRequestItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P201_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P202 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowAddOrModifyResponseItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P202_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P203 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowFeedbackItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P203_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P204 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowInformationItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P204_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P205 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowLevelQosParameters_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P205_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P206 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowWithCauseItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P206_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P207 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowModifyConfirmItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P207_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P208 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowNotifyItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P208_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P209 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowParametersItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P209_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P210 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowPerTNLInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P210_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P211 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowPerTNLInformationItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P211_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P212 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowSetupRequestItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P212_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P213 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowItemWithDataForwarding_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P213_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P214 {
+	A_SEQUENCE_OF(struct Ngap_QosFlowToBeForwardedItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P214_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P215 {
+	A_SEQUENCE_OF(struct Ngap_QoSFlowsUsageReport_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P215_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P216 {
+	A_SEQUENCE_OF(struct Ngap_RANStatusTransfer_TransparentContainer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P216_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P217 {
+	A_SEQUENCE_OF(struct Ngap_RATRestrictions_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P217_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P218 {
+	A_SEQUENCE_OF(struct Ngap_RecommendedCellsForPaging_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P218_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P219 {
+	A_SEQUENCE_OF(struct Ngap_RecommendedCellItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P219_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P220 {
+	A_SEQUENCE_OF(struct Ngap_RecommendedRANNodesForPaging_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P220_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P221 {
+	A_SEQUENCE_OF(struct Ngap_RecommendedRANNodeItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P221_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P222 {
+	A_SEQUENCE_OF(struct Ngap_RedundantPDUSessionInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P222_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P223 {
+	A_SEQUENCE_OF(struct Ngap_RIMInformationTransfer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P223_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P224 {
+	A_SEQUENCE_OF(struct Ngap_RIMInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P224_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P225 {
+	A_SEQUENCE_OF(struct Ngap_ScheduledCommunicationTime_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P225_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P226 {
+	A_SEQUENCE_OF(struct Ngap_SecondaryRATUsageInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P226_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P227 {
+	A_SEQUENCE_OF(struct Ngap_SecondaryRATDataUsageReportTransfer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P227_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P228 {
+	A_SEQUENCE_OF(struct Ngap_SecurityContext_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P228_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P229 {
+	A_SEQUENCE_OF(struct Ngap_SecurityIndication_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P229_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P230 {
+	A_SEQUENCE_OF(struct Ngap_SecurityResult_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P230_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P231 {
+	A_SEQUENCE_OF(struct Ngap_SensorMeasurementConfiguration_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P231_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P232 {
+	A_SEQUENCE_OF(struct Ngap_SensorMeasConfigNameItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P232_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P233 {
+	A_SEQUENCE_OF(struct Ngap_ServedGUAMIItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P233_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P234 {
+	A_SEQUENCE_OF(struct Ngap_ServiceAreaInformation_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P234_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P235 {
+	A_SEQUENCE_OF(struct Ngap_SliceOverloadItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P235_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P236 {
+	A_SEQUENCE_OF(struct Ngap_SliceSupportItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P236_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P237 {
+	A_SEQUENCE_OF(struct Ngap_SNPN_MobilityInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P237_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P238 {
+	A_SEQUENCE_OF(struct Ngap_S_NSSAI_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P238_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P239 {
+	A_SEQUENCE_OF(struct Ngap_SONConfigurationTransfer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P239_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P240 {
+	A_SEQUENCE_OF(struct Ngap_SONInformationReply_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P240_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P241 {
+	A_SEQUENCE_OF(struct Ngap_SourceNGRANNode_ToTargetNGRANNode_TransparentContainer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P241_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P242 {
+	A_SEQUENCE_OF(struct Ngap_SourceRANNodeID_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P242_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P243 {
+	A_SEQUENCE_OF(struct Ngap_SourceToTarget_AMFInformationReroute_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P243_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P244 {
+	A_SEQUENCE_OF(struct Ngap_SupportedTAItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P244_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P245 {
+	A_SEQUENCE_OF(struct Ngap_TAI_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P245_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P246 {
+	A_SEQUENCE_OF(struct Ngap_TAIBroadcastEUTRA_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P246_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P247 {
+	A_SEQUENCE_OF(struct Ngap_TAIBroadcastNR_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P247_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P248 {
+	A_SEQUENCE_OF(struct Ngap_TAICancelledEUTRA_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P248_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P249 {
+	A_SEQUENCE_OF(struct Ngap_TAICancelledNR_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P249_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P250 {
+	A_SEQUENCE_OF(struct Ngap_TAIListForInactiveItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P250_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P251 {
+	A_SEQUENCE_OF(struct Ngap_TAIListForPagingItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P251_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P252 {
+	A_SEQUENCE_OF(struct Ngap_TargeteNB_ID_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P252_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P253 {
+	A_SEQUENCE_OF(struct Ngap_TargetNGRANNode_ToSourceNGRANNode_TransparentContainer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P253_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P254 {
+	A_SEQUENCE_OF(struct Ngap_TargetNGRANNode_ToSourceNGRANNode_FailureTransparentContainer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P254_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P255 {
+	A_SEQUENCE_OF(struct Ngap_TargetRANNodeID_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P255_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P256 {
+	A_SEQUENCE_OF(struct Ngap_TargetRNC_ID_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P256_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P257 {
+	A_SEQUENCE_OF(struct Ngap_TNLAssociationItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P257_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P258 {
+	A_SEQUENCE_OF(struct Ngap_TooearlyIntersystemHO_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P258_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P259 {
+	A_SEQUENCE_OF(struct Ngap_TraceActivation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P259_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P260 {
+	A_SEQUENCE_OF(struct Ngap_TAIBasedMDT_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P260_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P261 {
+	A_SEQUENCE_OF(struct Ngap_TABasedMDT_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P261_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P262 {
+	A_SEQUENCE_OF(struct Ngap_TSCAssistanceInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P262_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P263 {
+	A_SEQUENCE_OF(struct Ngap_TSCTrafficCharacteristics_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P263_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P264 {
+	A_SEQUENCE_OF(struct Ngap_UEAggregateMaximumBitRate_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P264_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P265 {
+	A_SEQUENCE_OF(struct Ngap_UE_associatedLogicalNG_connectionItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P265_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P266 {
+	A_SEQUENCE_OF(struct Ngap_UEContextResumeRequestTransfer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P266_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P267 {
+	A_SEQUENCE_OF(struct Ngap_UEContextResumeResponseTransfer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P267_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P268 {
+	A_SEQUENCE_OF(struct Ngap_UEContextSuspendRequestTransfer_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P268_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P269 {
+	A_SEQUENCE_OF(struct Ngap_UE_DifferentiationInfo_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P269_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P270 {
+	A_SEQUENCE_OF(struct Ngap_UE_NGAP_ID_pair_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P270_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P271 {
+	A_SEQUENCE_OF(struct Ngap_UEPresenceInAreaOfInterestItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P271_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P272 {
+	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityForPaging_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P272_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P273 {
+	A_SEQUENCE_OF(struct Ngap_UESecurityCapabilities_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P273_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P274 {
+	A_SEQUENCE_OF(struct Ngap_UL_CP_SecurityInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P274_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P275 {
+	A_SEQUENCE_OF(struct Ngap_UL_NGU_UP_TNLModifyItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P275_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P276 {
+	A_SEQUENCE_OF(struct Ngap_UnavailableGUAMIItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P276_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P277 {
+	A_SEQUENCE_OF(struct Ngap_UPTransportLayerInformationItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P277_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P278 {
+	A_SEQUENCE_OF(struct Ngap_UPTransportLayerInformationPairItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P278_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P279 {
+	A_SEQUENCE_OF(struct Ngap_UserLocationInformationEUTRA_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P279_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P280 {
+	A_SEQUENCE_OF(struct Ngap_UserLocationInformationN3IWF_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P280_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P281 {
+	A_SEQUENCE_OF(struct Ngap_UserLocationInformationTNGF_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P281_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P282 {
+	A_SEQUENCE_OF(struct Ngap_UserLocationInformationTWIF_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P282_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P283 {
+	A_SEQUENCE_OF(struct Ngap_UserLocationInformationNR_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P283_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P284 {
+	A_SEQUENCE_OF(struct Ngap_UserPlaneSecurityInformation_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P284_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P285 {
+	A_SEQUENCE_OF(struct Ngap_VolumeTimedReport_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P285_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P286 {
+	A_SEQUENCE_OF(struct Ngap_WLANMeasurementConfiguration_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P286_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P287 {
+	A_SEQUENCE_OF(struct Ngap_WLANMeasConfigNameItem_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P287_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P288 {
+	A_SEQUENCE_OF(struct Ngap_WUS_Assistance_Information_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P288_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P289 {
+	A_SEQUENCE_OF(struct Ngap_XnExtTLA_Item_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P289_t;
+typedef struct Ngap_ProtocolExtensionContainer_175P290 {
+	A_SEQUENCE_OF(struct Ngap_XnTNLConfigurationInfo_ExtIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolExtensionContainer_175P290_t;
 
 /* Implementation */
 extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P0;
@@ -2125,6 +2825,406 @@ extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P190;
 extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P190_specs_381;
 extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P190_381[1];
 extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P190_constr_381;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P191;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P191_specs_383;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P191_383[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P191_constr_383;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P192;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P192_specs_385;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P192_385[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P192_constr_385;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P193;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P193_specs_387;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P193_387[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P193_constr_387;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P194;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P194_specs_389;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P194_389[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P194_constr_389;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P195;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P195_specs_391;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P195_391[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P195_constr_391;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P196;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P196_specs_393;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P196_393[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P196_constr_393;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P197;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P197_specs_395;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P197_395[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P197_constr_395;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P198;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P198_specs_397;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P198_397[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P198_constr_397;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P199;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P199_specs_399;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P199_399[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P199_constr_399;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P200;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P200_specs_401;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P200_401[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P200_constr_401;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P201;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P201_specs_403;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P201_403[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P201_constr_403;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P202;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P202_specs_405;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P202_405[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P202_constr_405;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P203;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P203_specs_407;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P203_407[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P203_constr_407;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P204;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P204_specs_409;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P204_409[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P204_constr_409;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P205;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P205_specs_411;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P205_411[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P205_constr_411;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P206;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P206_specs_413;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P206_413[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P206_constr_413;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P207;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P207_specs_415;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P207_415[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P207_constr_415;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P208;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P208_specs_417;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P208_417[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P208_constr_417;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P209;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P209_specs_419;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P209_419[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P209_constr_419;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P210;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P210_specs_421;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P210_421[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P210_constr_421;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P211;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P211_specs_423;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P211_423[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P211_constr_423;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P212;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P212_specs_425;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P212_425[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P212_constr_425;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P213;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P213_specs_427;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P213_427[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P213_constr_427;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P214;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P214_specs_429;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P214_429[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P214_constr_429;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P215;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P215_specs_431;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P215_431[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P215_constr_431;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P216;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P216_specs_433;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P216_433[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P216_constr_433;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P217;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P217_specs_435;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P217_435[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P217_constr_435;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P218;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P218_specs_437;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P218_437[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P218_constr_437;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P219;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P219_specs_439;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P219_439[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P219_constr_439;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P220;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P220_specs_441;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P220_441[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P220_constr_441;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P221;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P221_specs_443;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P221_443[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P221_constr_443;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P222;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P222_specs_445;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P222_445[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P222_constr_445;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P223;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P223_specs_447;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P223_447[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P223_constr_447;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P224;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P224_specs_449;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P224_449[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P224_constr_449;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P225;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P225_specs_451;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P225_451[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P225_constr_451;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P226;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P226_specs_453;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P226_453[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P226_constr_453;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P227;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P227_specs_455;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P227_455[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P227_constr_455;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P228;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P228_specs_457;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P228_457[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P228_constr_457;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P229;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P229_specs_459;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P229_459[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P229_constr_459;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P230;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P230_specs_461;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P230_461[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P230_constr_461;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P231;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P231_specs_463;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P231_463[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P231_constr_463;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P232;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P232_specs_465;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P232_465[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P232_constr_465;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P233;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P233_specs_467;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P233_467[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P233_constr_467;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P234;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P234_specs_469;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P234_469[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P234_constr_469;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P235;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P235_specs_471;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P235_471[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P235_constr_471;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P236;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P236_specs_473;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P236_473[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P236_constr_473;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P237;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P237_specs_475;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P237_475[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P237_constr_475;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P238;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P238_specs_477;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P238_477[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P238_constr_477;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P239;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P239_specs_479;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P239_479[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P239_constr_479;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P240;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P240_specs_481;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P240_481[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P240_constr_481;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P241;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P241_specs_483;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P241_483[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P241_constr_483;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P242;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P242_specs_485;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P242_485[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P242_constr_485;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P243;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P243_specs_487;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P243_487[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P243_constr_487;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P244;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P244_specs_489;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P244_489[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P244_constr_489;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P245;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P245_specs_491;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P245_491[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P245_constr_491;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P246;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P246_specs_493;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P246_493[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P246_constr_493;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P247;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P247_specs_495;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P247_495[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P247_constr_495;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P248;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P248_specs_497;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P248_497[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P248_constr_497;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P249;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P249_specs_499;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P249_499[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P249_constr_499;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P250;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P250_specs_501;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P250_501[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P250_constr_501;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P251;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P251_specs_503;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P251_503[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P251_constr_503;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P252;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P252_specs_505;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P252_505[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P252_constr_505;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P253;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P253_specs_507;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P253_507[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P253_constr_507;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P254;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P254_specs_509;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P254_509[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P254_constr_509;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P255;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P255_specs_511;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P255_511[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P255_constr_511;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P256;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P256_specs_513;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P256_513[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P256_constr_513;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P257;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P257_specs_515;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P257_515[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P257_constr_515;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P258;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P258_specs_517;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P258_517[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P258_constr_517;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P259;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P259_specs_519;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P259_519[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P259_constr_519;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P260;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P260_specs_521;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P260_521[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P260_constr_521;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P261;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P261_specs_523;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P261_523[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P261_constr_523;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P262;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P262_specs_525;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P262_525[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P262_constr_525;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P263;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P263_specs_527;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P263_527[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P263_constr_527;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P264;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P264_specs_529;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P264_529[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P264_constr_529;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P265;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P265_specs_531;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P265_531[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P265_constr_531;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P266;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P266_specs_533;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P266_533[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P266_constr_533;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P267;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P267_specs_535;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P267_535[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P267_constr_535;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P268;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P268_specs_537;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P268_537[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P268_constr_537;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P269;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P269_specs_539;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P269_539[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P269_constr_539;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P270;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P270_specs_541;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P270_541[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P270_constr_541;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P271;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P271_specs_543;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P271_543[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P271_constr_543;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P272;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P272_specs_545;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P272_545[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P272_constr_545;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P273;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P273_specs_547;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P273_547[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P273_constr_547;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P274;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P274_specs_549;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P274_549[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P274_constr_549;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P275;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P275_specs_551;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P275_551[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P275_constr_551;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P276;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P276_specs_553;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P276_553[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P276_constr_553;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P277;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P277_specs_555;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P277_555[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P277_constr_555;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P278;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P278_specs_557;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P278_557[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P278_constr_557;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P279;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P279_specs_559;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P279_559[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P279_constr_559;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P280;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P280_specs_561;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P280_561[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P280_constr_561;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P281;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P281_specs_563;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P281_563[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P281_constr_563;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P282;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P282_specs_565;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P282_565[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P282_constr_565;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P283;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P283_specs_567;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P283_567[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P283_constr_567;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P284;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P284_specs_569;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P284_569[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P284_constr_569;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P285;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P285_specs_571;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P285_571[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P285_constr_571;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P286;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P286_specs_573;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P286_573[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P286_constr_573;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P287;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P287_specs_575;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P287_575[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P287_constr_575;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P288;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P288_specs_577;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P288_577[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P288_constr_577;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P289;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P289_specs_579;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P289_579[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P289_constr_579;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolExtensionContainer_175P290;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolExtensionContainer_175P290_specs_581;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolExtensionContainer_175P290_581[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolExtensionContainer_175P290_constr_581;
 
 #ifdef __cplusplus
 }

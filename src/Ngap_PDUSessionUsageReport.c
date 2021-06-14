@@ -22,18 +22,22 @@ static asn_per_constraints_t asn_PER_type_Ngap_rATType_constr_2 CC_NOTUSED = {
 };
 static const asn_INTEGER_enum_map_t asn_MAP_Ngap_rATType_value2enum_2[] = {
 	{ 0,	2,	"nr" },
-	{ 1,	5,	"eutra" }
+	{ 1,	5,	"eutra" },
+	{ 2,	13,	"nr-unlicensed" },
+	{ 3,	17,	"e-utra-unlicensed" }
 	/* This list is extensible */
 };
 static const unsigned int asn_MAP_Ngap_rATType_enum2value_2[] = {
+	3,	/* e-utra-unlicensed(3) */
 	1,	/* eutra(1) */
-	0	/* nr(0) */
+	0,	/* nr(0) */
+	2	/* nr-unlicensed(2) */
 	/* This list is extensible */
 };
 static const asn_INTEGER_specifics_t asn_SPC_Ngap_rATType_specs_2 = {
 	asn_MAP_Ngap_rATType_value2enum_2,	/* "tag" => N; sorted by tag */
 	asn_MAP_Ngap_rATType_enum2value_2,	/* N => "tag"; sorted by N */
-	2,	/* Number of elements in the maps */
+	4,	/* Number of elements in the maps */
 	3,	/* Extensions before this member */
 	1,	/* Strict enumeration */
 	0,	/* Native long size */
@@ -81,7 +85,7 @@ asn_TYPE_member_t asn_MBR_Ngap_PDUSessionUsageReport_1[] = {
 	{ ATF_POINTER, 1, offsetof(struct Ngap_PDUSessionUsageReport, iE_Extensions),
 		(ASN_TAG_CLASS_CONTEXT | (2 << 2)),
 		-1,	/* IMPLICIT tag at current level */
-		&asn_DEF_Ngap_ProtocolExtensionContainer_175P124,
+		&asn_DEF_Ngap_ProtocolExtensionContainer_175P197,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */

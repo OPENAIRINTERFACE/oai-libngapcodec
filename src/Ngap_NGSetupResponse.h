@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_NGSetupResponse */
 typedef struct Ngap_NGSetupResponse {
-	Ngap_ProtocolIE_Container_124P42_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P54_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

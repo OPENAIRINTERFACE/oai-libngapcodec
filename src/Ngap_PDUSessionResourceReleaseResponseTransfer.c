@@ -12,7 +12,7 @@ static asn_TYPE_member_t asn_MBR_Ngap_PDUSessionResourceReleaseResponseTransfer_
 	{ ATF_POINTER, 1, offsetof(struct Ngap_PDUSessionResourceReleaseResponseTransfer, iE_Extensions),
 		(ASN_TAG_CLASS_CONTEXT | (0 << 2)),
 		-1,	/* IMPLICIT tag at current level */
-		&asn_DEF_Ngap_ProtocolExtensionContainer_175P111,
+		&asn_DEF_Ngap_ProtocolExtensionContainer_175P181,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */

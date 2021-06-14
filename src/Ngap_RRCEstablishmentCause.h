@@ -33,7 +33,8 @@ typedef enum Ngap_RRCEstablishmentCause {
 	/*
 	 * Enumeration is extensible
 	 */
-	Ngap_RRCEstablishmentCause_notAvailable	= 10
+	Ngap_RRCEstablishmentCause_notAvailable	= 10,
+	Ngap_RRCEstablishmentCause_mo_ExceptionData	= 11
 } e_Ngap_RRCEstablishmentCause;
 
 /* Ngap_RRCEstablishmentCause */

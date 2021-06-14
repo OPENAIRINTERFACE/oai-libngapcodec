@@ -648,6 +648,150 @@ asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P79_constr_159 C
 	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
 	0, 0	/* No PER value map */
 };
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P80_constr_161 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P80_constr_161 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P81_constr_163 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P81_constr_163 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P82_constr_165 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P82_constr_165 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P83_constr_167 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P83_constr_167 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P84_constr_169 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P84_constr_169 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P85_constr_171 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P85_constr_171 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P86_constr_173 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P86_constr_173 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P87_constr_175 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P87_constr_175 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P88_constr_177 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P88_constr_177 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P89_constr_179 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P89_constr_179 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P90_constr_181 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P90_constr_181 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P91_constr_183 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P91_constr_183 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P92_constr_185 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P92_constr_185 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P93_constr_187 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P93_constr_187 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P94_constr_189 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P94_constr_189 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P95_constr_191 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P95_constr_191 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P96_constr_193 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P96_constr_193 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
+static asn_oer_constraints_t asn_OER_type_Ngap_ProtocolIE_Container_124P97_constr_195 CC_NOTUSED = {
+	{ 0, 0 },
+	-1	/* (SIZE(0..65535)) */};
+asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P97_constr_195 CC_NOTUSED = {
+	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
+	{ APC_CONSTRAINED,	 16,  16,  0,  65535 }	/* (SIZE(0..65535)) */,
+	0, 0	/* No PER value map */
+};
 asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P0_1[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
@@ -1247,7 +1391,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P17_35[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UEContextModificationRequestIEs,
+		&asn_DEF_Ngap_UEContextResumeRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1282,7 +1426,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P18_37[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UEContextModificationResponseIEs,
+		&asn_DEF_Ngap_UEContextResumeResponseIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1317,7 +1461,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P19_39[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UEContextModificationFailureIEs,
+		&asn_DEF_Ngap_UEContextResumeFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1352,7 +1496,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P20_41[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_RRCInactiveTransitionReportIEs,
+		&asn_DEF_Ngap_UEContextSuspendRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1387,7 +1531,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P21_43[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverRequiredIEs,
+		&asn_DEF_Ngap_UEContextSuspendResponseIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1422,7 +1566,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P22_45[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverCommandIEs,
+		&asn_DEF_Ngap_UEContextSuspendFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1457,7 +1601,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P23_47[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverPreparationFailureIEs,
+		&asn_DEF_Ngap_UEContextModificationRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1492,7 +1636,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P24_49[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverRequestIEs,
+		&asn_DEF_Ngap_UEContextModificationResponseIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1527,7 +1671,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P25_51[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverRequestAcknowledgeIEs,
+		&asn_DEF_Ngap_UEContextModificationFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1562,7 +1706,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P26_53[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverFailureIEs,
+		&asn_DEF_Ngap_RRCInactiveTransitionReportIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1597,7 +1741,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P27_55[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverNotifyIEs,
+		&asn_DEF_Ngap_RetrieveUEInformationIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1632,7 +1776,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P28_57[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PathSwitchRequestIEs,
+		&asn_DEF_Ngap_UEInformationTransferIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1667,7 +1811,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P29_59[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PathSwitchRequestAcknowledgeIEs,
+		&asn_DEF_Ngap_RANCPRelocationIndicationIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1702,7 +1846,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P30_61[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PathSwitchRequestFailureIEs,
+		&asn_DEF_Ngap_HandoverRequiredIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1737,7 +1881,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P31_63[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverCancelIEs,
+		&asn_DEF_Ngap_HandoverCommandIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1772,7 +1916,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P32_65[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_HandoverCancelAcknowledgeIEs,
+		&asn_DEF_Ngap_HandoverPreparationFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1807,7 +1951,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P33_67[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UplinkRANStatusTransferIEs,
+		&asn_DEF_Ngap_HandoverRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1842,7 +1986,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P34_69[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_DownlinkRANStatusTransferIEs,
+		&asn_DEF_Ngap_HandoverRequestAcknowledgeIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1877,7 +2021,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P35_71[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PagingIEs,
+		&asn_DEF_Ngap_HandoverFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1912,7 +2056,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P36_73[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_InitialUEMessage_IEs,
+		&asn_DEF_Ngap_HandoverNotifyIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1947,7 +2091,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P37_75[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_DownlinkNASTransport_IEs,
+		&asn_DEF_Ngap_PathSwitchRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -1982,7 +2126,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P38_77[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UplinkNASTransport_IEs,
+		&asn_DEF_Ngap_PathSwitchRequestAcknowledgeIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2017,7 +2161,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P39_79[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_NASNonDeliveryIndication_IEs,
+		&asn_DEF_Ngap_PathSwitchRequestFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2052,7 +2196,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P40_81[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_RerouteNASRequest_IEs,
+		&asn_DEF_Ngap_HandoverCancelIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2087,7 +2231,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P41_83[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_NGSetupRequestIEs,
+		&asn_DEF_Ngap_HandoverCancelAcknowledgeIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2122,7 +2266,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P42_85[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_NGSetupResponseIEs,
+		&asn_DEF_Ngap_HandoverSuccessIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2157,7 +2301,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P43_87[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_NGSetupFailureIEs,
+		&asn_DEF_Ngap_UplinkRANEarlyStatusTransferIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2192,7 +2336,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P44_89[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_RANConfigurationUpdateIEs,
+		&asn_DEF_Ngap_DownlinkRANEarlyStatusTransferIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2227,7 +2371,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P45_91[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_RANConfigurationUpdateAcknowledgeIEs,
+		&asn_DEF_Ngap_UplinkRANStatusTransferIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2262,7 +2406,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P46_93[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_RANConfigurationUpdateFailureIEs,
+		&asn_DEF_Ngap_DownlinkRANStatusTransferIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2297,7 +2441,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P47_95[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_AMFConfigurationUpdateIEs,
+		&asn_DEF_Ngap_PagingIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2332,7 +2476,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P48_97[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_AMFConfigurationUpdateAcknowledgeIEs,
+		&asn_DEF_Ngap_InitialUEMessage_IEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2367,7 +2511,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P49_99[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_AMFConfigurationUpdateFailureIEs,
+		&asn_DEF_Ngap_DownlinkNASTransport_IEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2402,7 +2546,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P50_101[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_AMFStatusIndicationIEs,
+		&asn_DEF_Ngap_UplinkNASTransport_IEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2437,7 +2581,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P51_103[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_NGResetIEs,
+		&asn_DEF_Ngap_NASNonDeliveryIndication_IEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2472,7 +2616,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P52_105[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_NGResetAcknowledgeIEs,
+		&asn_DEF_Ngap_RerouteNASRequest_IEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2507,7 +2651,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P53_107[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_ErrorIndicationIEs,
+		&asn_DEF_Ngap_NGSetupRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2542,7 +2686,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P54_109[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_OverloadStartIEs,
+		&asn_DEF_Ngap_NGSetupResponseIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2577,7 +2721,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P55_111[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_OverloadStopIEs,
+		&asn_DEF_Ngap_NGSetupFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2612,7 +2756,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P56_113[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UplinkRANConfigurationTransferIEs,
+		&asn_DEF_Ngap_RANConfigurationUpdateIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2647,7 +2791,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P57_115[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_DownlinkRANConfigurationTransferIEs,
+		&asn_DEF_Ngap_RANConfigurationUpdateAcknowledgeIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2682,7 +2826,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P58_117[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_WriteReplaceWarningRequestIEs,
+		&asn_DEF_Ngap_RANConfigurationUpdateFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2717,7 +2861,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P59_119[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_WriteReplaceWarningResponseIEs,
+		&asn_DEF_Ngap_AMFConfigurationUpdateIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2752,7 +2896,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P60_121[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PWSCancelRequestIEs,
+		&asn_DEF_Ngap_AMFConfigurationUpdateAcknowledgeIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2787,7 +2931,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P61_123[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PWSCancelResponseIEs,
+		&asn_DEF_Ngap_AMFConfigurationUpdateFailureIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2822,7 +2966,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P62_125[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PWSRestartIndicationIEs,
+		&asn_DEF_Ngap_AMFStatusIndicationIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2857,7 +3001,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P63_127[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_PWSFailureIndicationIEs,
+		&asn_DEF_Ngap_NGResetIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2892,7 +3036,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P64_129[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_DownlinkUEAssociatedNRPPaTransportIEs,
+		&asn_DEF_Ngap_NGResetAcknowledgeIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2927,7 +3071,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P65_131[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UplinkUEAssociatedNRPPaTransportIEs,
+		&asn_DEF_Ngap_ErrorIndicationIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2962,7 +3106,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P66_133[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_DownlinkNonUEAssociatedNRPPaTransportIEs,
+		&asn_DEF_Ngap_OverloadStartIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -2997,7 +3141,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P67_135[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UplinkNonUEAssociatedNRPPaTransportIEs,
+		&asn_DEF_Ngap_OverloadStopIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3032,7 +3176,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P68_137[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_TraceStartIEs,
+		&asn_DEF_Ngap_UplinkRANConfigurationTransferIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3067,7 +3211,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P69_139[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_TraceFailureIndicationIEs,
+		&asn_DEF_Ngap_DownlinkRANConfigurationTransferIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3102,7 +3246,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P70_141[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_DeactivateTraceIEs,
+		&asn_DEF_Ngap_WriteReplaceWarningRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3137,7 +3281,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P71_143[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_CellTrafficTraceIEs,
+		&asn_DEF_Ngap_WriteReplaceWarningResponseIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3172,7 +3316,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P72_145[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_LocationReportingControlIEs,
+		&asn_DEF_Ngap_PWSCancelRequestIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3207,7 +3351,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P73_147[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_LocationReportingFailureIndicationIEs,
+		&asn_DEF_Ngap_PWSCancelResponseIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3242,7 +3386,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P74_149[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_LocationReportIEs,
+		&asn_DEF_Ngap_PWSRestartIndicationIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3277,7 +3421,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P75_151[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UETNLABindingReleaseRequestIEs,
+		&asn_DEF_Ngap_PWSFailureIndicationIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3312,7 +3456,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P76_153[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UERadioCapabilityInfoIndicationIEs,
+		&asn_DEF_Ngap_DownlinkUEAssociatedNRPPaTransportIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3347,7 +3491,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P77_155[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UERadioCapabilityCheckRequestIEs,
+		&asn_DEF_Ngap_UplinkUEAssociatedNRPPaTransportIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3382,7 +3526,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P78_157[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_UERadioCapabilityCheckResponseIEs,
+		&asn_DEF_Ngap_DownlinkNonUEAssociatedNRPPaTransportIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3417,7 +3561,7 @@ asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P79_159[] = {
 	{ ATF_POINTER, 0, 0,
 		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
 		0,
-		&asn_DEF_Ngap_SecondaryRATDataUsageReportIEs,
+		&asn_DEF_Ngap_UplinkNonUEAssociatedNRPPaTransportIEs,
 		0,
 		{ 0, 0, 0 },
 		0, 0, /* No default value */
@@ -3446,5 +3590,635 @@ asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P79 = {
 	asn_MBR_Ngap_ProtocolIE_Container_124P79_159,
 	1,	/* Single element */
 	&asn_SPC_Ngap_ProtocolIE_Container_124P79_specs_159	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P80_161[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_TraceStartIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P80_tags_161[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P80_specs_161 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P80),
+	offsetof(struct Ngap_ProtocolIE_Container_124P80, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P80 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P80_tags_161,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P80_tags_161)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P80_tags_161[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P80_tags_161,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P80_tags_161)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P80_tags_161[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P80_constr_161, &asn_PER_type_Ngap_ProtocolIE_Container_124P80_constr_161, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P80_161,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P80_specs_161	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P81_163[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_TraceFailureIndicationIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P81_tags_163[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P81_specs_163 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P81),
+	offsetof(struct Ngap_ProtocolIE_Container_124P81, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P81 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P81_tags_163,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P81_tags_163)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P81_tags_163[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P81_tags_163,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P81_tags_163)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P81_tags_163[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P81_constr_163, &asn_PER_type_Ngap_ProtocolIE_Container_124P81_constr_163, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P81_163,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P81_specs_163	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P82_165[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_DeactivateTraceIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P82_tags_165[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P82_specs_165 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P82),
+	offsetof(struct Ngap_ProtocolIE_Container_124P82, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P82 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P82_tags_165,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P82_tags_165)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P82_tags_165[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P82_tags_165,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P82_tags_165)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P82_tags_165[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P82_constr_165, &asn_PER_type_Ngap_ProtocolIE_Container_124P82_constr_165, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P82_165,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P82_specs_165	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P83_167[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_CellTrafficTraceIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P83_tags_167[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P83_specs_167 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P83),
+	offsetof(struct Ngap_ProtocolIE_Container_124P83, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P83 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P83_tags_167,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P83_tags_167)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P83_tags_167[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P83_tags_167,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P83_tags_167)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P83_tags_167[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P83_constr_167, &asn_PER_type_Ngap_ProtocolIE_Container_124P83_constr_167, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P83_167,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P83_specs_167	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P84_169[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_LocationReportingControlIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P84_tags_169[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P84_specs_169 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P84),
+	offsetof(struct Ngap_ProtocolIE_Container_124P84, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P84 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P84_tags_169,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P84_tags_169)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P84_tags_169[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P84_tags_169,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P84_tags_169)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P84_tags_169[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P84_constr_169, &asn_PER_type_Ngap_ProtocolIE_Container_124P84_constr_169, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P84_169,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P84_specs_169	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P85_171[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_LocationReportingFailureIndicationIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P85_tags_171[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P85_specs_171 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P85),
+	offsetof(struct Ngap_ProtocolIE_Container_124P85, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P85 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P85_tags_171,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P85_tags_171)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P85_tags_171[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P85_tags_171,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P85_tags_171)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P85_tags_171[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P85_constr_171, &asn_PER_type_Ngap_ProtocolIE_Container_124P85_constr_171, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P85_171,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P85_specs_171	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P86_173[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_LocationReportIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P86_tags_173[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P86_specs_173 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P86),
+	offsetof(struct Ngap_ProtocolIE_Container_124P86, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P86 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P86_tags_173,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P86_tags_173)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P86_tags_173[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P86_tags_173,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P86_tags_173)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P86_tags_173[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P86_constr_173, &asn_PER_type_Ngap_ProtocolIE_Container_124P86_constr_173, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P86_173,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P86_specs_173	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P87_175[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UETNLABindingReleaseRequestIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P87_tags_175[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P87_specs_175 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P87),
+	offsetof(struct Ngap_ProtocolIE_Container_124P87, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P87 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P87_tags_175,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P87_tags_175)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P87_tags_175[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P87_tags_175,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P87_tags_175)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P87_tags_175[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P87_constr_175, &asn_PER_type_Ngap_ProtocolIE_Container_124P87_constr_175, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P87_175,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P87_specs_175	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P88_177[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UERadioCapabilityInfoIndicationIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P88_tags_177[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P88_specs_177 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P88),
+	offsetof(struct Ngap_ProtocolIE_Container_124P88, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P88 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P88_tags_177,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P88_tags_177)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P88_tags_177[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P88_tags_177,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P88_tags_177)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P88_tags_177[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P88_constr_177, &asn_PER_type_Ngap_ProtocolIE_Container_124P88_constr_177, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P88_177,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P88_specs_177	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P89_179[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UERadioCapabilityCheckRequestIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P89_tags_179[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P89_specs_179 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P89),
+	offsetof(struct Ngap_ProtocolIE_Container_124P89, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P89 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P89_tags_179,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P89_tags_179)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P89_tags_179[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P89_tags_179,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P89_tags_179)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P89_tags_179[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P89_constr_179, &asn_PER_type_Ngap_ProtocolIE_Container_124P89_constr_179, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P89_179,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P89_specs_179	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P90_181[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UERadioCapabilityCheckResponseIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P90_tags_181[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P90_specs_181 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P90),
+	offsetof(struct Ngap_ProtocolIE_Container_124P90, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P90 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P90_tags_181,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P90_tags_181)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P90_tags_181[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P90_tags_181,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P90_tags_181)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P90_tags_181[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P90_constr_181, &asn_PER_type_Ngap_ProtocolIE_Container_124P90_constr_181, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P90_181,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P90_specs_181	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P91_183[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_SecondaryRATDataUsageReportIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P91_tags_183[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P91_specs_183 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P91),
+	offsetof(struct Ngap_ProtocolIE_Container_124P91, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P91 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P91_tags_183,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P91_tags_183)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P91_tags_183[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P91_tags_183,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P91_tags_183)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P91_tags_183[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P91_constr_183, &asn_PER_type_Ngap_ProtocolIE_Container_124P91_constr_183, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P91_183,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P91_specs_183	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P92_185[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UplinkRIMInformationTransferIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P92_tags_185[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P92_specs_185 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P92),
+	offsetof(struct Ngap_ProtocolIE_Container_124P92, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P92 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P92_tags_185,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P92_tags_185)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P92_tags_185[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P92_tags_185,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P92_tags_185)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P92_tags_185[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P92_constr_185, &asn_PER_type_Ngap_ProtocolIE_Container_124P92_constr_185, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P92_185,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P92_specs_185	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P93_187[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_DownlinkRIMInformationTransferIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P93_tags_187[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P93_specs_187 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P93),
+	offsetof(struct Ngap_ProtocolIE_Container_124P93, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P93 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P93_tags_187,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P93_tags_187)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P93_tags_187[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P93_tags_187,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P93_tags_187)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P93_tags_187[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P93_constr_187, &asn_PER_type_Ngap_ProtocolIE_Container_124P93_constr_187, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P93_187,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P93_specs_187	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P94_189[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_ConnectionEstablishmentIndicationIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P94_tags_189[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P94_specs_189 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P94),
+	offsetof(struct Ngap_ProtocolIE_Container_124P94, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P94 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P94_tags_189,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P94_tags_189)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P94_tags_189[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P94_tags_189,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P94_tags_189)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P94_tags_189[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P94_constr_189, &asn_PER_type_Ngap_ProtocolIE_Container_124P94_constr_189, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P94_189,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P94_specs_189	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P95_191[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UERadioCapabilityIDMappingRequestIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P95_tags_191[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P95_specs_191 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P95),
+	offsetof(struct Ngap_ProtocolIE_Container_124P95, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P95 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P95_tags_191,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P95_tags_191)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P95_tags_191[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P95_tags_191,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P95_tags_191)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P95_tags_191[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P95_constr_191, &asn_PER_type_Ngap_ProtocolIE_Container_124P95_constr_191, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P95_191,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P95_specs_191	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P96_193[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_UERadioCapabilityIDMappingResponseIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P96_tags_193[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P96_specs_193 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P96),
+	offsetof(struct Ngap_ProtocolIE_Container_124P96, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P96 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P96_tags_193,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P96_tags_193)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P96_tags_193[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P96_tags_193,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P96_tags_193)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P96_tags_193[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P96_constr_193, &asn_PER_type_Ngap_ProtocolIE_Container_124P96_constr_193, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P96_193,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P96_specs_193	/* Additional specs */
+};
+
+asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P97_195[] = {
+	{ ATF_POINTER, 0, 0,
+		(ASN_TAG_CLASS_UNIVERSAL | (16 << 2)),
+		0,
+		&asn_DEF_Ngap_AMFCPRelocationIndicationIEs,
+		0,
+		{ 0, 0, 0 },
+		0, 0, /* No default value */
+		""
+		},
+};
+static const ber_tlv_tag_t asn_DEF_Ngap_ProtocolIE_Container_124P97_tags_195[] = {
+	(ASN_TAG_CLASS_UNIVERSAL | (16 << 2))
+};
+asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P97_specs_195 = {
+	sizeof(struct Ngap_ProtocolIE_Container_124P97),
+	offsetof(struct Ngap_ProtocolIE_Container_124P97, _asn_ctx),
+	0,	/* XER encoding is XMLDelimitedItemList */
+};
+asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P97 = {
+	"ProtocolIE-Container",
+	"ProtocolIE-Container",
+	&asn_OP_SEQUENCE_OF,
+	asn_DEF_Ngap_ProtocolIE_Container_124P97_tags_195,
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P97_tags_195)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P97_tags_195[0]), /* 1 */
+	asn_DEF_Ngap_ProtocolIE_Container_124P97_tags_195,	/* Same as above */
+	sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P97_tags_195)
+		/sizeof(asn_DEF_Ngap_ProtocolIE_Container_124P97_tags_195[0]), /* 1 */
+	{ &asn_OER_type_Ngap_ProtocolIE_Container_124P97_constr_195, &asn_PER_type_Ngap_ProtocolIE_Container_124P97_constr_195, SEQUENCE_OF_constraint },
+	asn_MBR_Ngap_ProtocolIE_Container_124P97_195,
+	1,	/* Single element */
+	&asn_SPC_Ngap_ProtocolIE_Container_124P97_specs_195	/* Additional specs */
 };
 

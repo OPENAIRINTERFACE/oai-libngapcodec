@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_HandoverNotify */
 typedef struct Ngap_HandoverNotify {
-	Ngap_ProtocolIE_Container_124P27_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P36_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_NGSetupFailure */
 typedef struct Ngap_NGSetupFailure {
-	Ngap_ProtocolIE_Container_124P43_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P55_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

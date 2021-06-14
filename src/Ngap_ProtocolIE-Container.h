@@ -37,10 +37,19 @@ struct Ngap_InitialContextSetupFailureIEs;
 struct Ngap_UEContextReleaseRequest_IEs;
 struct Ngap_UEContextReleaseCommand_IEs;
 struct Ngap_UEContextReleaseComplete_IEs;
+struct Ngap_UEContextResumeRequestIEs;
+struct Ngap_UEContextResumeResponseIEs;
+struct Ngap_UEContextResumeFailureIEs;
+struct Ngap_UEContextSuspendRequestIEs;
+struct Ngap_UEContextSuspendResponseIEs;
+struct Ngap_UEContextSuspendFailureIEs;
 struct Ngap_UEContextModificationRequestIEs;
 struct Ngap_UEContextModificationResponseIEs;
 struct Ngap_UEContextModificationFailureIEs;
 struct Ngap_RRCInactiveTransitionReportIEs;
+struct Ngap_RetrieveUEInformationIEs;
+struct Ngap_UEInformationTransferIEs;
+struct Ngap_RANCPRelocationIndicationIEs;
 struct Ngap_HandoverRequiredIEs;
 struct Ngap_HandoverCommandIEs;
 struct Ngap_HandoverPreparationFailureIEs;
@@ -53,6 +62,9 @@ struct Ngap_PathSwitchRequestAcknowledgeIEs;
 struct Ngap_PathSwitchRequestFailureIEs;
 struct Ngap_HandoverCancelIEs;
 struct Ngap_HandoverCancelAcknowledgeIEs;
+struct Ngap_HandoverSuccessIEs;
+struct Ngap_UplinkRANEarlyStatusTransferIEs;
+struct Ngap_DownlinkRANEarlyStatusTransferIEs;
 struct Ngap_UplinkRANStatusTransferIEs;
 struct Ngap_DownlinkRANStatusTransferIEs;
 struct Ngap_PagingIEs;
@@ -100,6 +112,12 @@ struct Ngap_UERadioCapabilityInfoIndicationIEs;
 struct Ngap_UERadioCapabilityCheckRequestIEs;
 struct Ngap_UERadioCapabilityCheckResponseIEs;
 struct Ngap_SecondaryRATDataUsageReportIEs;
+struct Ngap_UplinkRIMInformationTransferIEs;
+struct Ngap_DownlinkRIMInformationTransferIEs;
+struct Ngap_ConnectionEstablishmentIndicationIEs;
+struct Ngap_UERadioCapabilityIDMappingRequestIEs;
+struct Ngap_UERadioCapabilityIDMappingResponseIEs;
+struct Ngap_AMFCPRelocationIndicationIEs;
 
 /* Ngap_ProtocolIE-Container */
 typedef struct Ngap_ProtocolIE_Container_124P0 {
@@ -205,383 +223,491 @@ typedef struct Ngap_ProtocolIE_Container_124P16 {
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P16_t;
 typedef struct Ngap_ProtocolIE_Container_124P17 {
-	A_SEQUENCE_OF(struct Ngap_UEContextModificationRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextResumeRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P17_t;
 typedef struct Ngap_ProtocolIE_Container_124P18 {
-	A_SEQUENCE_OF(struct Ngap_UEContextModificationResponseIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextResumeResponseIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P18_t;
 typedef struct Ngap_ProtocolIE_Container_124P19 {
-	A_SEQUENCE_OF(struct Ngap_UEContextModificationFailureIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextResumeFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P19_t;
 typedef struct Ngap_ProtocolIE_Container_124P20 {
-	A_SEQUENCE_OF(struct Ngap_RRCInactiveTransitionReportIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextSuspendRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P20_t;
 typedef struct Ngap_ProtocolIE_Container_124P21 {
-	A_SEQUENCE_OF(struct Ngap_HandoverRequiredIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextSuspendResponseIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P21_t;
 typedef struct Ngap_ProtocolIE_Container_124P22 {
-	A_SEQUENCE_OF(struct Ngap_HandoverCommandIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextSuspendFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P22_t;
 typedef struct Ngap_ProtocolIE_Container_124P23 {
-	A_SEQUENCE_OF(struct Ngap_HandoverPreparationFailureIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextModificationRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P23_t;
 typedef struct Ngap_ProtocolIE_Container_124P24 {
-	A_SEQUENCE_OF(struct Ngap_HandoverRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextModificationResponseIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P24_t;
 typedef struct Ngap_ProtocolIE_Container_124P25 {
-	A_SEQUENCE_OF(struct Ngap_HandoverRequestAcknowledgeIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEContextModificationFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P25_t;
 typedef struct Ngap_ProtocolIE_Container_124P26 {
-	A_SEQUENCE_OF(struct Ngap_HandoverFailureIEs) list;
+	A_SEQUENCE_OF(struct Ngap_RRCInactiveTransitionReportIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P26_t;
 typedef struct Ngap_ProtocolIE_Container_124P27 {
-	A_SEQUENCE_OF(struct Ngap_HandoverNotifyIEs) list;
+	A_SEQUENCE_OF(struct Ngap_RetrieveUEInformationIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P27_t;
 typedef struct Ngap_ProtocolIE_Container_124P28 {
-	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UEInformationTransferIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P28_t;
 typedef struct Ngap_ProtocolIE_Container_124P29 {
-	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestAcknowledgeIEs) list;
+	A_SEQUENCE_OF(struct Ngap_RANCPRelocationIndicationIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P29_t;
 typedef struct Ngap_ProtocolIE_Container_124P30 {
-	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestFailureIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverRequiredIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P30_t;
 typedef struct Ngap_ProtocolIE_Container_124P31 {
-	A_SEQUENCE_OF(struct Ngap_HandoverCancelIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverCommandIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P31_t;
 typedef struct Ngap_ProtocolIE_Container_124P32 {
-	A_SEQUENCE_OF(struct Ngap_HandoverCancelAcknowledgeIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverPreparationFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P32_t;
 typedef struct Ngap_ProtocolIE_Container_124P33 {
-	A_SEQUENCE_OF(struct Ngap_UplinkRANStatusTransferIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P33_t;
 typedef struct Ngap_ProtocolIE_Container_124P34 {
-	A_SEQUENCE_OF(struct Ngap_DownlinkRANStatusTransferIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverRequestAcknowledgeIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P34_t;
 typedef struct Ngap_ProtocolIE_Container_124P35 {
-	A_SEQUENCE_OF(struct Ngap_PagingIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P35_t;
 typedef struct Ngap_ProtocolIE_Container_124P36 {
-	A_SEQUENCE_OF(struct Ngap_InitialUEMessage_IEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverNotifyIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P36_t;
 typedef struct Ngap_ProtocolIE_Container_124P37 {
-	A_SEQUENCE_OF(struct Ngap_DownlinkNASTransport_IEs) list;
+	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P37_t;
 typedef struct Ngap_ProtocolIE_Container_124P38 {
-	A_SEQUENCE_OF(struct Ngap_UplinkNASTransport_IEs) list;
+	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestAcknowledgeIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P38_t;
 typedef struct Ngap_ProtocolIE_Container_124P39 {
-	A_SEQUENCE_OF(struct Ngap_NASNonDeliveryIndication_IEs) list;
+	A_SEQUENCE_OF(struct Ngap_PathSwitchRequestFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P39_t;
 typedef struct Ngap_ProtocolIE_Container_124P40 {
-	A_SEQUENCE_OF(struct Ngap_RerouteNASRequest_IEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverCancelIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P40_t;
 typedef struct Ngap_ProtocolIE_Container_124P41 {
-	A_SEQUENCE_OF(struct Ngap_NGSetupRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverCancelAcknowledgeIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P41_t;
 typedef struct Ngap_ProtocolIE_Container_124P42 {
-	A_SEQUENCE_OF(struct Ngap_NGSetupResponseIEs) list;
+	A_SEQUENCE_OF(struct Ngap_HandoverSuccessIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P42_t;
 typedef struct Ngap_ProtocolIE_Container_124P43 {
-	A_SEQUENCE_OF(struct Ngap_NGSetupFailureIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UplinkRANEarlyStatusTransferIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P43_t;
 typedef struct Ngap_ProtocolIE_Container_124P44 {
-	A_SEQUENCE_OF(struct Ngap_RANConfigurationUpdateIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DownlinkRANEarlyStatusTransferIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P44_t;
 typedef struct Ngap_ProtocolIE_Container_124P45 {
-	A_SEQUENCE_OF(struct Ngap_RANConfigurationUpdateAcknowledgeIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UplinkRANStatusTransferIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P45_t;
 typedef struct Ngap_ProtocolIE_Container_124P46 {
-	A_SEQUENCE_OF(struct Ngap_RANConfigurationUpdateFailureIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DownlinkRANStatusTransferIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P46_t;
 typedef struct Ngap_ProtocolIE_Container_124P47 {
-	A_SEQUENCE_OF(struct Ngap_AMFConfigurationUpdateIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PagingIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P47_t;
 typedef struct Ngap_ProtocolIE_Container_124P48 {
-	A_SEQUENCE_OF(struct Ngap_AMFConfigurationUpdateAcknowledgeIEs) list;
+	A_SEQUENCE_OF(struct Ngap_InitialUEMessage_IEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P48_t;
 typedef struct Ngap_ProtocolIE_Container_124P49 {
-	A_SEQUENCE_OF(struct Ngap_AMFConfigurationUpdateFailureIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DownlinkNASTransport_IEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P49_t;
 typedef struct Ngap_ProtocolIE_Container_124P50 {
-	A_SEQUENCE_OF(struct Ngap_AMFStatusIndicationIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UplinkNASTransport_IEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P50_t;
 typedef struct Ngap_ProtocolIE_Container_124P51 {
-	A_SEQUENCE_OF(struct Ngap_NGResetIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NASNonDeliveryIndication_IEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P51_t;
 typedef struct Ngap_ProtocolIE_Container_124P52 {
-	A_SEQUENCE_OF(struct Ngap_NGResetAcknowledgeIEs) list;
+	A_SEQUENCE_OF(struct Ngap_RerouteNASRequest_IEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P52_t;
 typedef struct Ngap_ProtocolIE_Container_124P53 {
-	A_SEQUENCE_OF(struct Ngap_ErrorIndicationIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NGSetupRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P53_t;
 typedef struct Ngap_ProtocolIE_Container_124P54 {
-	A_SEQUENCE_OF(struct Ngap_OverloadStartIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NGSetupResponseIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P54_t;
 typedef struct Ngap_ProtocolIE_Container_124P55 {
-	A_SEQUENCE_OF(struct Ngap_OverloadStopIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NGSetupFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P55_t;
 typedef struct Ngap_ProtocolIE_Container_124P56 {
-	A_SEQUENCE_OF(struct Ngap_UplinkRANConfigurationTransferIEs) list;
+	A_SEQUENCE_OF(struct Ngap_RANConfigurationUpdateIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P56_t;
 typedef struct Ngap_ProtocolIE_Container_124P57 {
-	A_SEQUENCE_OF(struct Ngap_DownlinkRANConfigurationTransferIEs) list;
+	A_SEQUENCE_OF(struct Ngap_RANConfigurationUpdateAcknowledgeIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P57_t;
 typedef struct Ngap_ProtocolIE_Container_124P58 {
-	A_SEQUENCE_OF(struct Ngap_WriteReplaceWarningRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_RANConfigurationUpdateFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P58_t;
 typedef struct Ngap_ProtocolIE_Container_124P59 {
-	A_SEQUENCE_OF(struct Ngap_WriteReplaceWarningResponseIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMFConfigurationUpdateIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P59_t;
 typedef struct Ngap_ProtocolIE_Container_124P60 {
-	A_SEQUENCE_OF(struct Ngap_PWSCancelRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMFConfigurationUpdateAcknowledgeIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P60_t;
 typedef struct Ngap_ProtocolIE_Container_124P61 {
-	A_SEQUENCE_OF(struct Ngap_PWSCancelResponseIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMFConfigurationUpdateFailureIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P61_t;
 typedef struct Ngap_ProtocolIE_Container_124P62 {
-	A_SEQUENCE_OF(struct Ngap_PWSRestartIndicationIEs) list;
+	A_SEQUENCE_OF(struct Ngap_AMFStatusIndicationIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P62_t;
 typedef struct Ngap_ProtocolIE_Container_124P63 {
-	A_SEQUENCE_OF(struct Ngap_PWSFailureIndicationIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NGResetIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P63_t;
 typedef struct Ngap_ProtocolIE_Container_124P64 {
-	A_SEQUENCE_OF(struct Ngap_DownlinkUEAssociatedNRPPaTransportIEs) list;
+	A_SEQUENCE_OF(struct Ngap_NGResetAcknowledgeIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P64_t;
 typedef struct Ngap_ProtocolIE_Container_124P65 {
-	A_SEQUENCE_OF(struct Ngap_UplinkUEAssociatedNRPPaTransportIEs) list;
+	A_SEQUENCE_OF(struct Ngap_ErrorIndicationIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P65_t;
 typedef struct Ngap_ProtocolIE_Container_124P66 {
-	A_SEQUENCE_OF(struct Ngap_DownlinkNonUEAssociatedNRPPaTransportIEs) list;
+	A_SEQUENCE_OF(struct Ngap_OverloadStartIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P66_t;
 typedef struct Ngap_ProtocolIE_Container_124P67 {
-	A_SEQUENCE_OF(struct Ngap_UplinkNonUEAssociatedNRPPaTransportIEs) list;
+	A_SEQUENCE_OF(struct Ngap_OverloadStopIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P67_t;
 typedef struct Ngap_ProtocolIE_Container_124P68 {
-	A_SEQUENCE_OF(struct Ngap_TraceStartIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UplinkRANConfigurationTransferIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P68_t;
 typedef struct Ngap_ProtocolIE_Container_124P69 {
-	A_SEQUENCE_OF(struct Ngap_TraceFailureIndicationIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DownlinkRANConfigurationTransferIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P69_t;
 typedef struct Ngap_ProtocolIE_Container_124P70 {
-	A_SEQUENCE_OF(struct Ngap_DeactivateTraceIEs) list;
+	A_SEQUENCE_OF(struct Ngap_WriteReplaceWarningRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P70_t;
 typedef struct Ngap_ProtocolIE_Container_124P71 {
-	A_SEQUENCE_OF(struct Ngap_CellTrafficTraceIEs) list;
+	A_SEQUENCE_OF(struct Ngap_WriteReplaceWarningResponseIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P71_t;
 typedef struct Ngap_ProtocolIE_Container_124P72 {
-	A_SEQUENCE_OF(struct Ngap_LocationReportingControlIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PWSCancelRequestIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P72_t;
 typedef struct Ngap_ProtocolIE_Container_124P73 {
-	A_SEQUENCE_OF(struct Ngap_LocationReportingFailureIndicationIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PWSCancelResponseIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P73_t;
 typedef struct Ngap_ProtocolIE_Container_124P74 {
-	A_SEQUENCE_OF(struct Ngap_LocationReportIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PWSRestartIndicationIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P74_t;
 typedef struct Ngap_ProtocolIE_Container_124P75 {
-	A_SEQUENCE_OF(struct Ngap_UETNLABindingReleaseRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_PWSFailureIndicationIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P75_t;
 typedef struct Ngap_ProtocolIE_Container_124P76 {
-	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityInfoIndicationIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DownlinkUEAssociatedNRPPaTransportIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P76_t;
 typedef struct Ngap_ProtocolIE_Container_124P77 {
-	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityCheckRequestIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UplinkUEAssociatedNRPPaTransportIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P77_t;
 typedef struct Ngap_ProtocolIE_Container_124P78 {
-	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityCheckResponseIEs) list;
+	A_SEQUENCE_OF(struct Ngap_DownlinkNonUEAssociatedNRPPaTransportIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P78_t;
 typedef struct Ngap_ProtocolIE_Container_124P79 {
-	A_SEQUENCE_OF(struct Ngap_SecondaryRATDataUsageReportIEs) list;
+	A_SEQUENCE_OF(struct Ngap_UplinkNonUEAssociatedNRPPaTransportIEs) list;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
 } Ngap_ProtocolIE_Container_124P79_t;
+typedef struct Ngap_ProtocolIE_Container_124P80 {
+	A_SEQUENCE_OF(struct Ngap_TraceStartIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P80_t;
+typedef struct Ngap_ProtocolIE_Container_124P81 {
+	A_SEQUENCE_OF(struct Ngap_TraceFailureIndicationIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P81_t;
+typedef struct Ngap_ProtocolIE_Container_124P82 {
+	A_SEQUENCE_OF(struct Ngap_DeactivateTraceIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P82_t;
+typedef struct Ngap_ProtocolIE_Container_124P83 {
+	A_SEQUENCE_OF(struct Ngap_CellTrafficTraceIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P83_t;
+typedef struct Ngap_ProtocolIE_Container_124P84 {
+	A_SEQUENCE_OF(struct Ngap_LocationReportingControlIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P84_t;
+typedef struct Ngap_ProtocolIE_Container_124P85 {
+	A_SEQUENCE_OF(struct Ngap_LocationReportingFailureIndicationIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P85_t;
+typedef struct Ngap_ProtocolIE_Container_124P86 {
+	A_SEQUENCE_OF(struct Ngap_LocationReportIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P86_t;
+typedef struct Ngap_ProtocolIE_Container_124P87 {
+	A_SEQUENCE_OF(struct Ngap_UETNLABindingReleaseRequestIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P87_t;
+typedef struct Ngap_ProtocolIE_Container_124P88 {
+	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityInfoIndicationIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P88_t;
+typedef struct Ngap_ProtocolIE_Container_124P89 {
+	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityCheckRequestIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P89_t;
+typedef struct Ngap_ProtocolIE_Container_124P90 {
+	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityCheckResponseIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P90_t;
+typedef struct Ngap_ProtocolIE_Container_124P91 {
+	A_SEQUENCE_OF(struct Ngap_SecondaryRATDataUsageReportIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P91_t;
+typedef struct Ngap_ProtocolIE_Container_124P92 {
+	A_SEQUENCE_OF(struct Ngap_UplinkRIMInformationTransferIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P92_t;
+typedef struct Ngap_ProtocolIE_Container_124P93 {
+	A_SEQUENCE_OF(struct Ngap_DownlinkRIMInformationTransferIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P93_t;
+typedef struct Ngap_ProtocolIE_Container_124P94 {
+	A_SEQUENCE_OF(struct Ngap_ConnectionEstablishmentIndicationIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P94_t;
+typedef struct Ngap_ProtocolIE_Container_124P95 {
+	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityIDMappingRequestIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P95_t;
+typedef struct Ngap_ProtocolIE_Container_124P96 {
+	A_SEQUENCE_OF(struct Ngap_UERadioCapabilityIDMappingResponseIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P96_t;
+typedef struct Ngap_ProtocolIE_Container_124P97 {
+	A_SEQUENCE_OF(struct Ngap_AMFCPRelocationIndicationIEs) list;
+	
+	/* Context for parsing across buffer boundaries */
+	asn_struct_ctx_t _asn_ctx;
+} Ngap_ProtocolIE_Container_124P97_t;
 
 /* Implementation */
 extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P0;
@@ -904,6 +1030,78 @@ extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P79;
 extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P79_specs_159;
 extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P79_159[1];
 extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P79_constr_159;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P80;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P80_specs_161;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P80_161[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P80_constr_161;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P81;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P81_specs_163;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P81_163[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P81_constr_163;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P82;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P82_specs_165;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P82_165[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P82_constr_165;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P83;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P83_specs_167;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P83_167[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P83_constr_167;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P84;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P84_specs_169;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P84_169[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P84_constr_169;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P85;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P85_specs_171;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P85_171[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P85_constr_171;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P86;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P86_specs_173;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P86_173[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P86_constr_173;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P87;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P87_specs_175;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P87_175[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P87_constr_175;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P88;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P88_specs_177;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P88_177[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P88_constr_177;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P89;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P89_specs_179;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P89_179[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P89_constr_179;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P90;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P90_specs_181;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P90_181[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P90_constr_181;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P91;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P91_specs_183;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P91_183[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P91_constr_183;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P92;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P92_specs_185;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P92_185[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P92_constr_185;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P93;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P93_specs_187;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P93_187[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P93_constr_187;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P94;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P94_specs_189;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P94_189[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P94_constr_189;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P95;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P95_specs_191;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P95_191[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P95_constr_191;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P96;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P96_specs_193;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P96_193[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P96_constr_193;
+extern asn_TYPE_descriptor_t asn_DEF_Ngap_ProtocolIE_Container_124P97;
+extern asn_SET_OF_specifics_t asn_SPC_Ngap_ProtocolIE_Container_124P97_specs_195;
+extern asn_TYPE_member_t asn_MBR_Ngap_ProtocolIE_Container_124P97_195[1];
+extern asn_per_constraints_t asn_PER_type_Ngap_ProtocolIE_Container_124P97_constr_195;
 
 #ifdef __cplusplus
 }

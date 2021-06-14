@@ -21,7 +21,7 @@ extern "C" {
 
 /* Ngap_PWSFailureIndication */
 typedef struct Ngap_PWSFailureIndication {
-	Ngap_ProtocolIE_Container_124P63_t	 protocolIEs;
+	Ngap_ProtocolIE_Container_124P75_t	 protocolIEs;
 	/*
 	 * This type is extensible,
 	 * possible extensions are below.

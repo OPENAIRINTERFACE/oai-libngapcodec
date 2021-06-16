@@ -12,7 +12,7 @@ NGAP_PDU_SAMPLES = \
 	../test/aper/NGSetupRequest_2.aper \
 	../test/aper/NGReset.aper
 
-.PHONY: test
+.PHONY: $(NGAP_PDU_SAMPLES)
 
 all: $(ASN_PROGRAM)
 
@@ -29,7 +29,8 @@ clean:
 	rm -f $(ASN_PROGRAM)
 	rm -f $(ASN_MODULE_SRCS:.c=.o) $(ASN_PROGRAM_SRCS:.c=.o)
 
-test_ngap_pdu: $(NGAP_PDU_SAMPLES)
-	./converter-example -iaper -per-nopad -pNGAP-PDU $< -oxer
+test: $(NGAP_PDU_SAMPLES)
 
-test: test_ngap_pdu
+$(NGAP_PDU_SAMPLES):
+	./converter-example -iaper -per-nopad -pNGAP-PDU $@ -oxer
+

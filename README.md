@@ -281,3 +281,10 @@ Now you have your library supporting a new version of your spec.
 You can install it as explained above.
 
 Ideally, you can commit your changes to a new release branch.
+
+## Debugging the library
+
+### Compile with debug traces
+
+In order to have more trace, add -DASN_EMIT_DEBUG to CFLAGS in the makefile
+Similarly, to use a debugger, add -g

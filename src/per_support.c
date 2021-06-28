@@ -310,7 +310,10 @@ aper_get_length(asn_per_data_t *pd, int range, int ebits, int *repeat) {
 
 	*repeat = 0;
 
-	if (range <= 65536 && range >= 0)
+    // From ITU X.691-0207 section $19 / Encoding of sequence-of
+    // If there is no finite maximum or "ub" is greater than or equal to 64K we say that "ub" is unset.
+    // So the comparison for range should be strict for the 65536 value (it is equal to 64K, so unset).
+	if (range < 65536 && range >= 0)
 		return aper_get_nsnnwn(pd, range);
 
 	if (aper_get_align(pd) < 0)
